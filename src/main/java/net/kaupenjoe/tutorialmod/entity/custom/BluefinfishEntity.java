@@ -48,7 +48,36 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
         return ModEntities.rollSpawn(SpawnConfig.bluefinfishSpawnRolls, this.getRandom(), spawnReasonIn);
     }
 
-/*
+    public static boolean canBluefinfishSpawn(EntityType<BluefinfishEntity> entityType, ServerLevelAccessor iServerWorld, MobSpawnType reason, BlockPos pos, RandomSource random) {
+        return reason == MobSpawnType.SPAWNER || iServerWorld.isWaterAt(pos) && iServerWorld.isWaterAt(pos.above());
+    }
+
+    public static final BlockPos fromCoords(double x, double y, double z){
+        return new BlockPos((int) x, (int) y, (int) z);
+    }
+
+    public static final BlockPos fromVec3(Vec3 vec3){
+        return fromCoords(vec3.x, vec3.y, vec3.z);
+    }
+
+    @javax.annotation.Nullable
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
+        if (reason == MobSpawnType.NATURAL) {
+            doInitialPosing(worldIn);
+        }
+        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
+    }
+
+    private void doInitialPosing(LevelAccessor world) {
+        BlockPos down = this.blockPosition();
+        while(!world.getFluidState(down).isEmpty() && down.getY() > 1){
+            down = down.below();
+        }
+        this.setPos(down.getX() + 0.5F, down.getY() + 3 + random.nextInt(3), down.getZ() + 0.5F);
+    }
+
+
+    /*
     @javax.annotation.Nullable
     public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
         if (reason == MobSpawnType.NATURAL) {
@@ -64,9 +93,7 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
         this.setPos(down.getX() + 0.5F, down.getY() + 3 + random.nextInt(3), down.getZ() + 0.5F);
     }
 */
-    public static <T extends Mob> boolean canBluefinfishSpawn(EntityType<BluefinfishEntity> entityType, ServerLevelAccessor iServerWorld, MobSpawnType reason, BlockPos pos, RandomSource random) {
-        return reason == MobSpawnType.SPAWNER || iServerWorld.getBlockState(pos).getFluidState().is(Fluids.WATER) && random.nextInt(1) == 0;
-    }
+
 
     protected PathNavigation createNavigation(Level worldIn) {
         return new WaterBoundPathNavigation(this, worldIn);
@@ -85,25 +112,15 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
     public void tick() {
         super.tick();
 
-        if (this.level().isClientSide() && this.isInWater()) {
-            double dx = this.getDeltaMovement().x;
-            double dz = this.getDeltaMovement().z;
 
-            if (dx * dx + dz * dz > 0.0001) {
-                double targetYaw = Math.toDegrees(Math.atan2(dz, dx)) - 180;
-                float newYaw = (float) targetYaw;
-                this.setYRot(newYaw);
-                this.yBodyRot = newYaw;
-                this.yHeadRot = newYaw;
-            }
-        }
     }
 
 
     public static AttributeSupplier.Builder createAttributes() {
         return WaterAnimal.createLivingAttributes()
                 .add(Attributes.MAX_HEALTH, 10.0D)
-                .add(Attributes.FOLLOW_RANGE, 24D);
+                .add(Attributes.FOLLOW_RANGE, 24D)
+                .add(Attributes.MOVEMENT_SPEED, 0.5F);
     }
 
     public void travel(Vec3 travelVector) {
@@ -120,13 +137,6 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
         }
     }
 
-    private boolean canSeeBlock(BlockPos destinationBlock) {
-        Vec3 Vector3d = new Vec3(this.getX(), this.getEyeY(), this.getZ());
-        Vec3 blockVec = net.minecraft.world.phys.Vec3.atCenterOf(destinationBlock);
-        BlockHitResult result = this.level().clip(new ClipContext(Vector3d, blockVec, ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, this));
-        return result.getBlockPos().equals(destinationBlock);
-    }
-
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
         controllers.add(DefaultAnimations.genericLivingController(this));
@@ -136,7 +146,7 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
     protected void registerGoals() {
         this.goalSelector.addGoal(1, new TryFindWaterGoal(this));
         this.goalSelector.addGoal(2, new PanicGoal(this, 1D));
-        this.goalSelector.addGoal(3, new RandomSwimmingGoal(this, 1.0D, 10));
+        this.goalSelector.addGoal(2, new RandomSwimmingGoal(this, 1.0D, 10));
         this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
 
     }
@@ -162,9 +172,5 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
         return SoundEvents.COD_AMBIENT;
     }
 
-    @Nullable
-    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
-        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
-    }
 
 }

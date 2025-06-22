@@ -31,7 +31,6 @@ import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.WaterBoundPathNavigation;
 import net.minecraft.world.entity.animal.Squid;
 import net.minecraft.world.entity.animal.WaterAnimal;
-import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -84,10 +83,6 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
         this.setPos(down.getX() + 0.5F, down.getY() + 3 + random.nextInt(3), down.getZ() + 0.5F);
     }
 
-    protected PathNavigation createNavigation(Level worldIn) {
-        return new WaterBoundPathNavigation(this, worldIn);
-    }
-
     public void aiStep() {
         this.updateSwingTime();
         this.updateNoActionTime();
@@ -102,6 +97,10 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
                 .add(Attributes.MOVEMENT_SPEED, 0.34F)
                 .add(Attributes.ATTACK_KNOCKBACK, 1D)
                 .add(Attributes.ATTACK_SPEED, 1.6D);
+    }
+
+    protected PathNavigation createNavigation(Level worldIn) {
+        return new WaterBoundPathNavigation(this, worldIn);
     }
 
     protected void updateNoActionTime() {
@@ -304,7 +303,6 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return this.cache;
     }
-
 
     public static class FishLikeMoveControl extends MoveControl {
         private final WaterAnimal fish;
