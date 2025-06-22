@@ -29,6 +29,7 @@ import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.WaterBoundPathNavigation;
+import net.minecraft.world.entity.animal.Squid;
 import net.minecraft.world.entity.animal.WaterAnimal;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -52,7 +53,6 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
 
     public AnglerfishEntity(EntityType<? extends WaterAnimal> type, Level level) {
         super(type, level);
-        this.moveControl = new FishLikeMoveControl(this);
         this.moveControl = new WaterEntityController(this, 1.0F, 15F);
         this.setPathfindingMalus(BlockPathTypes.WATER, 0.0F);
         this.setPathfindingMalus(BlockPathTypes.WATER_BORDER, 0.0F);
@@ -155,7 +155,6 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
     @Override
     protected void registerGoals() {
         this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2D, true));
-        this.goalSelector.addGoal(2, new SwimGoalAngler(this, 1.35D));
         this.goalSelector.addGoal(3, new TryFindWaterGoal(this));
         this.goalSelector.addGoal(4, new RandomSwimmingGoal(this, 1.0D, 10));
         this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
@@ -165,7 +164,7 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
             public boolean canContinueToUse() {
                 return chaseTime >= 0 && super.canContinueToUse();}
         }));
-        this.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(this, BluefinfishEntity.class, false));
+        this.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(this, Squid.class, false));
     }
 
     public void travel(Vec3 travelVector) {
