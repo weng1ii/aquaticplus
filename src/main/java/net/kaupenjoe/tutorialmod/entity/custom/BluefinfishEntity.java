@@ -52,20 +52,16 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
         return reason == MobSpawnType.SPAWNER || iServerWorld.isWaterAt(pos) && iServerWorld.isWaterAt(pos.above());
     }
 
+    protected PathNavigation createNavigation(Level worldIn) {
+        return new WaterBoundPathNavigation(this, worldIn);
+    }
+
     public static final BlockPos fromCoords(double x, double y, double z){
         return new BlockPos((int) x, (int) y, (int) z);
     }
 
     public static final BlockPos fromVec3(Vec3 vec3){
         return fromCoords(vec3.x, vec3.y, vec3.z);
-    }
-
-    @javax.annotation.Nullable
-    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
-        if (reason == MobSpawnType.NATURAL) {
-            doInitialPosing(worldIn);
-        }
-        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
     }
 
     private void doInitialPosing(LevelAccessor world) {
@@ -95,9 +91,6 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
 */
 
 
-    protected PathNavigation createNavigation(Level worldIn) {
-        return new WaterBoundPathNavigation(this, worldIn);
-    }
 
     public int getMaxSpawnClusterSize() {
         return 6;
@@ -170,6 +163,14 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
     @Override
     protected SoundEvent getAmbientSound() {
         return SoundEvents.COD_AMBIENT;
+    }
+
+    @javax.annotation.Nullable
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
+        if (reason == MobSpawnType.NATURAL) {
+            doInitialPosing(worldIn);
+        }
+        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
     }
 
 
