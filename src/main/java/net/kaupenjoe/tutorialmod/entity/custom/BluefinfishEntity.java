@@ -1,0 +1,150 @@
+package net.kaupenjoe.tutorialmod.entity.custom;
+
+import net.kaupenjoe.tutorialmod.config.SpawnConfig;
+import net.kaupenjoe.tutorialmod.entity.ModEntities;
+import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.minecraft.core.BlockPos;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.DifficultyInstance;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.navigation.PathNavigation;
+import net.minecraft.world.entity.ai.navigation.WaterBoundPathNavigation;
+import net.minecraft.world.entity.animal.AbstractFish;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.material.Fluids;
+import org.jetbrains.annotations.Nullable;
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.constant.DefaultAnimations;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.Animation;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.object.PlayState;
+import software.bernie.geckolib.util.GeckoLibUtil;
+
+public class BluefinfishEntity extends AbstractFish implements GeoEntity {
+    private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+
+    public BluefinfishEntity(EntityType<? extends AbstractFish> pEntityType, Level pLevel) {
+        super(pEntityType, pLevel);
+    }
+
+    public boolean checkSpawnRules(LevelAccessor worldIn, MobSpawnType spawnReasonIn) {
+        return ModEntities.rollSpawn(SpawnConfig.bluefinfishSpawnRolls, this.getRandom(), spawnReasonIn);
+    }
+
+/*
+    @javax.annotation.Nullable
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
+        if (reason == MobSpawnType.NATURAL) {
+            doInitialPosing(worldIn);
+        }
+        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
+    }
+    private void doInitialPosing(LevelAccessor world) {
+        BlockPos down = this.blockPosition();
+        while(!world.getFluidState(down).isEmpty() && down.getY() > 1){
+            down = down.below();
+        }
+        this.setPos(down.getX() + 0.5F, down.getY() + 3 + random.nextInt(3), down.getZ() + 0.5F);
+    }
+*/
+    public static <T extends Mob> boolean canBluefinfishSpawn(EntityType<BluefinfishEntity> entityType, ServerLevelAccessor iServerWorld, MobSpawnType reason, BlockPos pos, RandomSource random) {
+        return reason == MobSpawnType.SPAWNER || iServerWorld.getBlockState(pos).getFluidState().is(Fluids.WATER) && random.nextInt(1) == 0;
+    }
+
+    protected PathNavigation createNavigation(Level worldIn) {
+        return new WaterBoundPathNavigation(this, worldIn);
+    }
+
+    public int getMaxSpawnClusterSize() {
+        return 6;
+    }
+
+    public boolean isMaxGroupSizeReached(int sizeIn) {
+        return false;
+    }
+
+
+    @Override
+    public void tick() {
+        super.tick();
+
+        if (this.level().isClientSide() && this.isInWater()) {
+            double dx = this.getDeltaMovement().x;
+            double dz = this.getDeltaMovement().z;
+
+            if (dx * dx + dz * dz > 0.0001) {
+                double targetYaw = Math.toDegrees(Math.atan2(dz, dx)) - 180;
+                float newYaw = (float) targetYaw;
+                this.setYRot(newYaw);
+                this.yBodyRot = newYaw;
+                this.yHeadRot = newYaw;
+            }
+        }
+
+    }
+
+
+    public static AttributeSupplier.Builder createAttributes() {
+        return AbstractFish.createLivingAttributes()
+                .add(Attributes.MAX_HEALTH, 10.0D)
+                .add(Attributes.FOLLOW_RANGE, 24D);
+    }
+
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+        controllers.add(DefaultAnimations.genericLivingController(this));
+    }
+
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return this.cache;
+    }
+
+    @Override
+    public ItemStack getBucketItemStack() {
+        return new ItemStack(ModItems.DICE.get()); //change on bucketed fish
+    }
+
+
+    @Override
+    protected SoundEvent getFlopSound() {
+        return SoundEvents.COD_FLOP;
+    }
+
+    @Override
+    protected SoundEvent getDeathSound() {
+        return SoundEvents.COD_DEATH;
+    }
+
+    @Override
+    protected SoundEvent getHurtSound(DamageSource pDamageSource) {
+        return SoundEvents.COD_HURT;
+    }
+
+    @Override
+    protected SoundEvent getAmbientSound() {
+        return SoundEvents.COD_AMBIENT;
+    }
+
+    @Nullable
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
+        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
+    }
+
+}
