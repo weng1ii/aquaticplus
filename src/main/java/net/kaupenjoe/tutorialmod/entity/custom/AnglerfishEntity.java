@@ -67,20 +67,8 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
         return reason == MobSpawnType.SPAWNER || iServerWorld.isWaterAt(pos) && iServerWorld.isWaterAt(pos.above());
     }
 
-    @javax.annotation.Nullable
-    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
-        if (reason == MobSpawnType.NATURAL) {
-            doInitialPosing(worldIn);
-        }
-        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
-    }
-
-    private void doInitialPosing(LevelAccessor world) {
-        BlockPos down = this.blockPosition();
-        while(!world.getFluidState(down).isEmpty() && down.getY() > 1){
-            down = down.below();
-        }
-        this.setPos(down.getX() + 0.5F, down.getY() + 3 + random.nextInt(3), down.getZ() + 0.5F);
+    protected PathNavigation createNavigation(Level worldIn) {
+        return new WaterBoundPathNavigation(this, worldIn);
     }
 
     public void aiStep() {
@@ -97,10 +85,6 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
                 .add(Attributes.MOVEMENT_SPEED, 0.34F)
                 .add(Attributes.ATTACK_KNOCKBACK, 1D)
                 .add(Attributes.ATTACK_SPEED, 1.6D);
-    }
-
-    protected PathNavigation createNavigation(Level worldIn) {
-        return new WaterBoundPathNavigation(this, worldIn);
     }
 
     protected void updateNoActionTime() {
@@ -302,6 +286,22 @@ public class AnglerfishEntity extends WaterAnimal  implements GeoEntity {
     @Override
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return this.cache;
+    }
+
+    @javax.annotation.Nullable
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
+        if (reason == MobSpawnType.NATURAL) {
+            doInitialPosing(worldIn);
+        }
+        return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
+    }
+
+    private void doInitialPosing(LevelAccessor world) {
+        BlockPos down = this.blockPosition();
+        while(!world.getFluidState(down).isEmpty() && down.getY() > 1){
+            down = down.below();
+        }
+        this.setPos(down.getX() + 0.5F, down.getY() + 3 + random.nextInt(3), down.getZ() + 0.5F);
     }
 
     public static class FishLikeMoveControl extends MoveControl {
