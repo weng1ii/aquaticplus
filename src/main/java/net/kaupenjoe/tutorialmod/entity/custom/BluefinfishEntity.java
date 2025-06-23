@@ -48,30 +48,13 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
         return ModEntities.rollSpawn(SpawnConfig.bluefinfishSpawnRolls, this.getRandom(), spawnReasonIn);
     }
 
-    public static boolean canBluefinfishSpawn(EntityType<BluefinfishEntity> entityType, ServerLevelAccessor iServerWorld, MobSpawnType reason, BlockPos pos, RandomSource random) {
+    public static boolean canBluefinfishSpawn(EntityType<BluefinfishEntity> pEntityType, ServerLevelAccessor iServerWorld, MobSpawnType reason, BlockPos pos, RandomSource random) {
         return reason == MobSpawnType.SPAWNER || iServerWorld.isWaterAt(pos) && iServerWorld.isWaterAt(pos.above());
     }
 
     protected PathNavigation createNavigation(Level worldIn) {
         return new WaterBoundPathNavigation(this, worldIn);
     }
-
-    public static final BlockPos fromCoords(double x, double y, double z){
-        return new BlockPos((int) x, (int) y, (int) z);
-    }
-
-    public static final BlockPos fromVec3(Vec3 vec3){
-        return fromCoords(vec3.x, vec3.y, vec3.z);
-    }
-
-    private void doInitialPosing(LevelAccessor world) {
-        BlockPos down = this.blockPosition();
-        while(!world.getFluidState(down).isEmpty() && down.getY() > 1){
-            down = down.below();
-        }
-        this.setPos(down.getX() + 0.5F, down.getY() + 3 + random.nextInt(3), down.getZ() + 0.5F);
-    }
-
 
     /*
     @javax.annotation.Nullable
@@ -167,9 +150,6 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
 
     @javax.annotation.Nullable
     public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason, @javax.annotation.Nullable SpawnGroupData spawnDataIn, @Nullable CompoundTag dataTag) {
-        if (reason == MobSpawnType.NATURAL) {
-            doInitialPosing(worldIn);
-        }
         return super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn, dataTag);
     }
 
