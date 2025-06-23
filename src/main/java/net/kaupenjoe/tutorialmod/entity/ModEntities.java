@@ -46,11 +46,11 @@ public class ModEntities {
                     .sized(0.5f, 0.5f).build("dice_projectile"));
 //fishes
     public static final RegistryObject<EntityType<BluefinfishEntity>> BLUEFINFISH =
-            ENTITY_TYPES.register("bluefinfish", () -> EntityType.Builder.of(BluefinfishEntity::new, MobCategory.WATER_CREATURE)
+            ENTITY_TYPES.register("bluefinfish", () -> EntityType.Builder.of(BluefinfishEntity::new, MobCategory.WATER_AMBIENT)
                     .sized(0.3f, 0.3f).build("bluefinfish"));
 
     public static final RegistryObject<EntityType<AnglerfishEntity>> ANGLERFISH =
-            ENTITY_TYPES.register("anglerfish", () -> EntityType.Builder.of(AnglerfishEntity::new, MobCategory.MONSTER)
+            ENTITY_TYPES.register("anglerfish", () -> EntityType.Builder.of(AnglerfishEntity::new, MobCategory.WATER_CREATURE)
                     .sized(1f, 1f).build("anglerfish"));
 
 

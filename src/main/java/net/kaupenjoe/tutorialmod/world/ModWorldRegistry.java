@@ -60,7 +60,7 @@ public class ModWorldRegistry {
         if (testBiome(BiomeConfig.bluefinfish, biome) && SpawnConfig.bluefinfishSpawnWeight > 0) {
             LOGGER.info("Adding Bluefinfish to biome: {}", biomeId);
             builder.getMobSpawnSettings().getSpawner(MobCategory.WATER_CREATURE)
-                    .add(new MobSpawnSettings.SpawnerData(ModEntities.BLUEFINFISH.get(), SpawnConfig.bluefinfishSpawnWeight, 3, 4));
+                    .add(new MobSpawnSettings.SpawnerData(ModEntities.BLUEFINFISH.get(), SpawnConfig.bluefinfishSpawnWeight, 3, 6));
         } else {
             LOGGER.info("Biome {} is not valid for Bluefinfish or spawn weight is 0", biomeId);
         }

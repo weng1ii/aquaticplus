@@ -10,7 +10,7 @@ public class CommonConfig {
     public ForgeConfigSpec.IntValue pathfindingThreads;
 
     public CommonConfig(final ForgeConfigSpec.Builder builder) {
-        builder.push("general");
+        builder.push("spawning");
         anglerfishSpawnWeight = buildInt(builder, "anglerfishSpawnWeight", "spawns", SpawnConfig.anglerfishSpawnWeight, 0, 1000, "Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn");
         anglerfishSpawnRolls = buildInt(builder, "anglerfishSpawnRolls", "spawns", SpawnConfig.anglerfishSpawnRolls, 0, Integer.MAX_VALUE, "Random roll chance to enable mob spawning. Higher number = lower chance of spawning");
         bluefinfishSpawnWeight = buildInt(builder, "bluefinfishSpawnWeight", "spawns", SpawnConfig.bluefinfishSpawnWeight, 0, 1000, "Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn");
