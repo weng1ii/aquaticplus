@@ -49,7 +49,7 @@ public class BluefinfishEntity extends WaterAnimal implements GeoEntity {
     }
 
     public static boolean canBluefinfishSpawn(EntityType<BluefinfishEntity> pEntityType, ServerLevelAccessor iServerWorld, MobSpawnType reason, BlockPos pos, RandomSource random) {
-        return reason == MobSpawnType.SPAWNER || iServerWorld.isWaterAt(pos) && iServerWorld.isWaterAt(pos.above());
+        return reason == MobSpawnType.SPAWNER || iServerWorld.getBlockState(pos).getFluidState().is(Fluids.WATER) && random.nextInt(1) == 0;
     }
 
     protected PathNavigation createNavigation(Level worldIn) {
