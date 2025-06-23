@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da288802-50c2-4d59-9a47-c26c6c1797ab" name="Changes" comment="check3">
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/kaupenjoe/tutorialmod/entity/custom/AnglerfishEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaupenjoe/tutorialmod/entity/custom/AnglerfishEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/kaupenjoe/tutorialmod/entity/custom/BluefinfishEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaupenjoe/tutorialmod/entity/custom/BluefinfishEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/kaupenjoe/tutorialmod/world/ModWorldRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/kaupenjoe/tutorialmod/world/ModWorldRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tutorialmod/lang/en_us.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;weng1ii&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/weng1ii/aquaticplus.git&quot;,
+    &quot;accountId&quot;: &quot;223418e6-9abe-4e7f-aa73-8cfc4c343e6f&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;weng1ii&quot;,
+    &quot;repository&quot;: &quot;aquaticplus&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2yL6hWSpmG1SjkhvYqEylPLQfDZ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.D:/Ideaprojects/aquaticplus/test [createMcpToSrg].executor": "Run",
+    "Gradle.D:/Ideaprojects/test [createMcpToSrg].executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Tests in 'test'.executor": "Run",
+    "Gradle.test [:cpw.mods.bootstraplauncher.BootstrapLauncher.main()].executor": "Run",
+    "Gradle.test [:prepareRunClientCompile].executor": "Run",
+    "Gradle.test [:prepareRunDataCompile].executor": "Run",
+    "Gradle.test [createMcpToSrg].executor": "Run",
+    "JAR Application.OptiFine_1.20.1_HD_U_I5.jar.executor": "Run",
+    "JAR Application.OptiFine_1.20.1_HD_U_I6.jar.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "redacting",
+    "last_opened_file_path": "D:/Ideaprojects/aquaticplus/test/src/main/resources/assets/tutorialmod/textures/item",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ideaprojects\aquaticplus\test\src\main\resources\assets\tutorialmod\textures\item" />
+      <recent name="D:\Ideaprojects\test\src\main\resources\assets\tutorialmod\textures\entity" />
+      <recent name="D:\Ideaprojects\test\src\main\resources\assets\tutorialmod\animations" />
+      <recent name="D:\Ideaprojects\test\src\main\resources\assets\tutorialmod\geo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ideaprojects\aquaticplus\test\src\main\resources\assets\tutorialmod\geo" />
+      <recent name="D:\Ideaprojects\test\src\main\resources\assets\tutorialmod\animations" />
+      <recent name="D:\Ideaprojects\test\src\main\resources\assets\tutorialmod\geo" />
+      <recent name="D:\Ideaprojects\test\run\mods" />
+      <recent name="D:\Ideaprojects\test\src\main\resources\assets\tutorialmod\textures\entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.runData" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da288802-50c2-4d59-9a47-c26c6c1797ab" name="Changes" comment="" />
+      <created>1749601625772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749601625772</updated>
+    </task>
+    <task id="LOCAL-00001" summary="+bluefinfish &#10;+anglerfish">
+      <option name="closed" value="true" />
+      <created>1750559553319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750559553319</updated>
+    </task>
+    <task id="LOCAL-00002" summary="+bluefinfish &#10;+anglerfish">
+      <option name="closed" value="true" />
+      <created>1750599459490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750599459490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="+bluefinfish &#10;+anglerfish">
+      <option name="closed" value="true" />
+      <created>1750599845308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750599845308</updated>
+    </task>
+    <task id="LOCAL-00004" summary="check">
+      <option name="closed" value="true" />
+      <created>1750599927088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750599927088</updated>
+    </task>
+    <task id="LOCAL-00005" summary="check1">
+      <option name="closed" value="true" />
+      <created>1750601000957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750601000957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="check1">
+      <option name="closed" value="true" />
+      <created>1750601058645</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750601058645</updated>
+    </task>
+    <task id="LOCAL-00007" summary="check1">
+      <option name="closed" value="true" />
+      <created>1750602722453</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750602722453</updated>
+    </task>
+    <task id="LOCAL-00008" summary="check2">
+      <option name="closed" value="true" />
+      <created>1750603663979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750603663979</updated>
+    </task>
+    <task id="LOCAL-00009" summary="check2">
+      <option name="closed" value="true" />
+      <created>1750603951019</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750603951019</updated>
+    </task>
+    <task id="LOCAL-00010" summary="check3">
+      <option name="closed" value="true" />
+      <created>1750608241271</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750608241271</updated>
+    </task>
+    <task id="LOCAL-00011" summary="check3">
+      <option name="closed" value="true" />
+      <created>1750611681450</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750611681450</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+    <MESSAGE value="+bluefinfish &#10;+anglerfish" />
+    <MESSAGE value="check" />
+    <MESSAGE value="check1" />
+    <MESSAGE value="check2" />
+    <MESSAGE value="check3" />
+    <option name="LAST_COMMIT_MESSAGE" value="check3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.module.ResolutionException" package="java.lang.module" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
