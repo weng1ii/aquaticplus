@@ -1,0 +1,12 @@
+{
+  "type": "aquaticplus:gem_polishing",
+  "ingredients": [
+    {
+      "item": "aquaticplus:raw_sapphire"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "aquaticplus:sapphire"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "item.aquaticplus.sapphire": "Sapphire",
+  "item.aquaticplus.raw_sapphire": "Raw Sapphire",
+
+  "item.aquaticplus.metal_detector": "Metal Detector",
+  "item.aquaticplus.strawberry": "Strawberry",
+  "item.aquaticplus.pine_cone": "Pine Cone",
+  "item.aquaticplus.sapphire_staff": "Sapphire Staff",
+
+  "item.aquaticplus.sapphire_sword": "Sapphire Sword",
+  "item.aquaticplus.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.aquaticplus.sapphire_axe": "Sapphire Axe",
+  "item.aquaticplus.sapphire_shovel": "Sapphire Shovel",
+  "item.aquaticplus.sapphire_hoe": "Sapphire Hoe",
+
+  "item.aquaticplus.sapphire_helmet": "Sapphire Helmet",
+  "item.aquaticplus.sapphire_chestplate": "Sapphire Chestplate",
+  "item.aquaticplus.sapphire_leggings": "Sapphire Leggings",
+  "item.aquaticplus.sapphire_boots": "Sapphire Boots",
+
+  "item.aquaticplus.strawberry_seeds": "Strawberry Seeds",
+
+  "item.aquaticplus.corn": "Corn",
+  "item.aquaticplus.corn_seeds": "Corn Seeds",
+
+  "item.aquaticplus.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.aquaticplus.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.aquaticplus.pine_boat": "Pine Boat",
+  "item.aquaticplus.pine_chest_boat": "Pine Chest Boat",
+
+  "item.aquaticplus.dice": "Dice",
+
+  "block.aquaticplus.sapphire_block": "Block of Sapphire",
+  "block.aquaticplus.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.aquaticplus.sapphire_ore": "Sapphire Ore",
+  "block.aquaticplus.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.aquaticplus.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+  "block.aquaticplus.nether_sapphire_ore": "Nether Sapphire Ore",
+
+  "block.aquaticplus.sound_block": "Sound Block",
+
+  "block.aquaticplus.sapphire_stairs": "Sapphire Stairs",
+  "block.aquaticplus.sapphire_slab": "Sapphire Slab",
+  "block.aquaticplus.sapphire_button": "Sapphire Button",
+  "block.aquaticplus.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.aquaticplus.sapphire_fence": "Sapphire Fence",
+  "block.aquaticplus.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.aquaticplus.sapphire_wall": "Sapphire Wall",
+  "block.aquaticplus.sapphire_door": "Sapphire Door",
+  "block.aquaticplus.sapphire_trapdoor": "Sapphire Trapdoor",
+  
+  "block.aquaticplus.catmint": "Catmint",
+
+  "block.aquaticplus.gem_polishing_station": "Gem Polishing Station",
+
+  "block.aquaticplus.pine_log": "Pine Log",
+  "block.aquaticplus.pine_planks": "Pine Planks",
+  "block.aquaticplus.pine_wood": "Pine Wood",
+  "block.aquaticplus.stripped_pine_log": "Stripped Pine Log",
+  "block.aquaticplus.stripped_pine_wood": "Stripped Pine Wood",
+  "block.aquaticplus.pine_leaves": "Pine Leaves",
+
+  "block.aquaticplus.pine_sign": "Pine Sign",
+  "block.aquaticplus.pine_hanging_sign": "Pine Hanging Sign",
+
+  "block.aquaticplus.pine_sapling": "Pine Sapling",
+
+  "tooltip.aquaticplus.metal_detector.tooltip": "Finds valuables underground!",
+
+  "entity.minecraft.villager.aquaticplus.soundmaster": "Sound Master",
+  "entity.aquaticplus.mod_chest_boat": "Boat with Chest",
+
+
+  "sounds.aquaticplus.metal_detector_found_ore": "Metal Detector Jingle",
+
+
+  "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
+}

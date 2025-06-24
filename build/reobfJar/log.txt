@@ -1,0 +1,959 @@
+Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin\java.exe
+Arguments: '--input, D:\Ideaprojects\aquaticplus\test\build\libs\aquaticplus-0.1-1.20.1.jar, --output, D:\Ideaprojects\aquaticplus\test\build\reobfJar\output.jar, --names, D:\Ideaprojects\aquaticplus\test\build\reobfJar\mappings.tsrg, --lib, C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-common-api\15.2.0.27_mapped_parchment_2023.06.26-1.20.1\jei-1.20.1-common-api-15.2.0.27_mapped_parchment_2023.06.26-1.20.1.jar, --lib, C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-forge-api\15.2.0.27_mapped_parchment_2023.06.26-1.20.1\jei-1.20.1-forge-api-15.2.0.27_mapped_parchment_2023.06.26-1.20.1.jar, --lib, C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\citadel-331936\6002521_mapped_parchment_2023.06.26-1.20.1\citadel-331936-6002521_mapped_parchment_2023.06.26-1.20.1.jar, --lib, C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\com\github\glitchfiend\TerraBlender-forge\1.20.1-3.0.0.169_mapped_parchment_2023.06.26-1.20.1\TerraBlender-forge-1.20.1-3.0.0.169_mapped_parchment_2023.06.26-1.20.1.jar, --lib, C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.20.1\4.7.2_mapped_parchment_2023.06.26-1.20.1\geckolib-forge-1.20.1-4.7.2_mapped_parchment_2023.06.26-1.20.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.eliotlash.mclib\mclib\20\3383672fb61b6a210e8fb93ffdd9fdae4549e4fc\mclib-20.jar, --lib, C:\Users\shand\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1\forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar, --lib, C:\Users\shand\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.1.3\8f209e526afd27a6abea960bbc3cd46e3e6dc051\fmlloader-1.20.1-47.1.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.1\386b00279628b105b2d507539c46e134e96f6237\coremods-5.0.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.1.3\7593356e50a77e5482ddb38a891265b9f60ff519\fmlearlydisplay-1.20.1-47.1.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar, --lib, C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar, --disable-abstract-param'
+Classpath:
+ - C:\Users\shand\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\1.0.6\ForgeAutoRenamingTool-1.0.6-all.jar
+Working directory: D:\Ideaprojects\aquaticplus\test\build\reobfJar
+Main class: net.minecraftforge.fart.Main
+====================================
+Forge Auto Renaming Tool v1.0.6
+lib: C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-common-api\15.2.0.27_mapped_parchment_2023.06.26-1.20.1\jei-1.20.1-common-api-15.2.0.27_mapped_parchment_2023.06.26-1.20.1.jar
+lib: C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.20.1-forge-api\15.2.0.27_mapped_parchment_2023.06.26-1.20.1\jei-1.20.1-forge-api-15.2.0.27_mapped_parchment_2023.06.26-1.20.1.jar
+lib: C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\citadel-331936\6002521_mapped_parchment_2023.06.26-1.20.1\citadel-331936-6002521_mapped_parchment_2023.06.26-1.20.1.jar
+lib: C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\com\github\glitchfiend\TerraBlender-forge\1.20.1-3.0.0.169_mapped_parchment_2023.06.26-1.20.1\TerraBlender-forge-1.20.1-3.0.0.169_mapped_parchment_2023.06.26-1.20.1.jar
+lib: C:\Users\shand\.gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.20.1\4.7.2_mapped_parchment_2023.06.26-1.20.1\geckolib-forge-1.20.1-4.7.2_mapped_parchment_2023.06.26-1.20.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.eliotlash.mclib\mclib\20\3383672fb61b6a210e8fb93ffdd9fdae4549e4fc\mclib-20.jar
+lib: C:\Users\shand\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1\forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar
+lib: C:\Users\shand\.gradle\caches\forge_gradle\minecraft_repo\versions\1.20.1\client-extra.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.1.3\8f209e526afd27a6abea960bbc3cd46e3e6dc051\fmlloader-1.20.1-47.1.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.5\f3da18e12c696d35a47c82cbb2cc8b5aa15e1154\mergetool-1.1.5-api.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.3\43977e804697048fc8d81d333a36c17d07a5b3dd\nashorn-core-15.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.5\19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0\asm-commons-9.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.5\64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe\asm-util-9.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.5\490bacc77de7cbc0be1a30bb3471072d705be4a4\asm-analysis-9.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.5\fd33c8b6373abaa675be407082fdfda35021254a\asm-tree-9.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.5\dc6ea1875f4d64fbc85e1691c95b96a3d8569c90\asm-9.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.0.1\386b00279628b105b2d507539c46e134e96f6237\coremods-5.0.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.1.3\7593356e50a77e5482ddb38a891265b9f60ff519\fmlearlydisplay-1.20.1-47.1.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\71.1\9e7d3304c23f9ba5cb71915f7cce23231a57a445\icu4j-71.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.12.1\b1e93a735caea94f503e95e6fe79bf9cdc1e985d\jna-5.12.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.19.0\3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb\log4j-core-2.19.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\ed892f945cf7e79c8756796f32d00fa4ceaf573b\lwjgl-glfw-3.3.1-natives-windows.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\beda65ee503443e60aa196d58ed31f8d001dc22a\lwjgl-glfw-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\b997e3391d6ce8f05487e7335d95c606043884a1\lwjgl-glfw-3.3.1-natives-windows-x86.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\948a89b76a16aa324b046ae9308891216ffce5f9\lwjgl-jemalloc-3.3.1-natives-windows.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\cae85c4edb219c88b6a0c26a87955ad98dc9519d\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\fb476c8ec110e1c137ad3ce8a7f7bfe6b11c6324\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\30a474d0e57193d7bc128849a3ab66bc9316fdb1\lwjgl-openal-3.3.1-natives-windows.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\40d65f1a7368a2aa47336f9cb69f5a190cf9975a\lwjgl-openal-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\888349f7b1be6fbae58bf8edfb9ef12def04c4e3\lwjgl-openal-3.3.1-natives-windows-x86.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\c1807e9bd571402787d7e37e3029776ae2513bb8\lwjgl-opengl-3.3.1-natives-windows.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\527d78f1e9056aff3ed02ce93019c73c5e8f1721\lwjgl-opengl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\deef3eb9b178ff2ff3ce893cc72ae741c3a17974\lwjgl-opengl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\86315914ac119efdb02dc9e8e978ade84f1702af\lwjgl-stb-3.3.1-natives-windows.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\fde63cdd2605c00636721a6c8b961e41d1f6b247\lwjgl-stb-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\a8d41f419eecb430b7c91ea2ce2c5c451cae2091\lwjgl-stb-3.3.1-natives-windows-x86.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\a5d830475ec0958d9fdba1559efa99aef211e6ff\lwjgl-tinyfd-3.3.1-natives-windows.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\83a5e780df610829ff3a737822b4f931cffecd91\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\842eedd876fae354abc308c98a263f6bbc9e8a4d\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\36c37f16ab611b3aa11f3bcf80b1d509b4ce6b\lwjgl-3.3.1-natives-windows.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\f46cadcf95675908fd3a550d63d9d709cb68998\lwjgl-3.3.1-natives-windows-arm64.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\3b14f4beae9dd39791ec9e12190a9380cd8a3ce6\lwjgl-3.3.1-natives-windows-x86.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.1\f48d81adce2abf5ad3cfe463df517952749e03bc\slf4j-api-2.0.1.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\shand\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+log: null
+input: D:\Ideaprojects\aquaticplus\test\build\libs\aquaticplus-0.1-1.20.1.jar
+output: D:\Ideaprojects\aquaticplus\test\build\reobfJar\output.jar
+threads: 16
+Names: D:\Ideaprojects\aquaticplus\test\build\reobfJar\mappings.tsrg(reversed: false)
+Fix Annotations: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: false
+Adding Libraries to Inheritance
+Reading Input: D:\Ideaprojects\aquaticplus\test\build\libs\aquaticplus-0.1-1.20.1.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity$2/getCount()I from net/minecraft/world/inventory/ContainerData/getCount()I: getCount -> m_6499_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity$2/get(I)I from net/minecraft/world/inventory/ContainerData/get(I)I: get -> m_6413_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity$2/set(II)V from net/minecraft/world/inventory/ContainerData/set(II)V: set -> m_8050_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/DiceBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/SoundBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/DiceBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/ModPortalBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/SoundBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/GemPolishingStationBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/GemPolishingStationBlock/getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker; from net/minecraft/world/level/block/EntityBlock/getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;: getTicker -> m_142354_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/GemPolishingStationBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/GemPolishingStationBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/canCraftInDimensions(II)Z from net/minecraft/world/item/crafting/Recipe/canCraftInDimensions(II)Z: canCraftInDimensions -> m_8004_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/getResultItem(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: getResultItem -> m_8043_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/getIngredients()Lnet/minecraft/core/NonNullList; from net/minecraft/world/item/crafting/Recipe/getIngredients()Lnet/minecraft/core/NonNullList;: getIngredients -> m_7527_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/matches(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/Level;)Z from net/minecraft/world/item/crafting/Recipe/matches(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/Level;)Z: matches -> m_5818_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/getId()Lnet/minecraft/resources/ResourceLocation; from net/minecraft/world/item/crafting/Recipe/getId()Lnet/minecraft/resources/ResourceLocation;: getId -> m_6423_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/crafting/Recipe/assemble(Lnet/minecraft/world/Container;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/item/ItemStack;: assemble -> m_5874_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/getType()Lnet/minecraft/world/item/crafting/RecipeType; from net/minecraft/world/item/crafting/Recipe/getType()Lnet/minecraft/world/item/crafting/RecipeType;: getType -> m_6671_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer; from net/minecraft/world/item/crafting/Recipe/getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;: getSerializer -> m_7707_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/GemPolishingStationBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/GemPolishingStationBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/StrawberryCropBlock/getMaxAge()I from net/minecraft/world/level/block/CropBlock/getMaxAge()I: getMaxAge -> m_7419_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/StrawberryCropBlock/getAgeProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty; from net/minecraft/world/level/block/CropBlock/getAgeProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty;: getAgeProperty -> m_7959_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/ModWallSignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/SignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/getMaxAge()I from net/minecraft/world/level/block/CropBlock/getMaxAge()I: getMaxAge -> m_7419_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/StrawberryCropBlock/getBaseSeedId()Lnet/minecraft/world/level/ItemLike; from net/minecraft/world/level/block/CropBlock/getBaseSeedId()Lnet/minecraft/world/level/ItemLike;: getBaseSeedId -> m_6404_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/StrawberryCropBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/CropBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/ModWallHangingSignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/WallHangingSignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/getAgeProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty; from net/minecraft/world/level/block/CropBlock/getAgeProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty;: getAgeProperty -> m_7959_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/CropBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/getBaseSeedId()Lnet/minecraft/world/level/ItemLike; from net/minecraft/world/level/block/CropBlock/getBaseSeedId()Lnet/minecraft/world/level/ItemLike;: getBaseSeedId -> m_6404_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/growCrops(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/block/CropBlock/growCrops(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: growCrops -> m_52263_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/ModHangingSignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/CeilingHangingSignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/ModStandingSignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/SignBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/CropBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/CropBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/custom/CornCropBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/CropBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/ModSignBlockEntity/getType()Lnet/minecraft/world/level/block/entity/BlockEntityType; from net/minecraft/world/level/block/entity/BlockEntity/getType()Lnet/minecraft/world/level/block/entity/BlockEntityType;: getType -> m_58903_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/ModHangingSignBlockEntity/getType()Lnet/minecraft/world/level/block/entity/BlockEntityType; from net/minecraft/world/level/block/entity/BlockEntity/getType()Lnet/minecraft/world/level/block/entity/BlockEntityType;: getType -> m_58903_
+Conflicting propagated mapping for net/weng1i/aquaticplus/block/entity/renderer/GemPolishingBlockEntityRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/blockentity/BlockEntityRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: render -> m_6922_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/RhinoRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/RhinoRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/RhinoRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/MobRenderer/render(Lnet/minecraft/world/entity/Mob;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/RhinoRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z from net/minecraft/client/renderer/entity/EntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z: shouldShowName -> m_6512_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/BluefinfishRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/BluefinfishRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/AnglerfishRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/AnglerfishRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/loot/ModBlockLootTables/generate()V from net/minecraft/data/loot/BlockLootSubProvider/generate()V: generate -> m_245660_
+Conflicting propagated mapping for net/weng1i/aquaticplus/screen/GemPolishingStationScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/weng1i/aquaticplus/screen/GemPolishingStationScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/weng1i/aquaticplus/screen/GemPolishingStationScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockStateProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for net/weng1i/aquaticplus/screen/GemPolishingStationMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/tree/PineTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey; from net/minecraft/world/level/block/grower/AbstractTreeGrower/getConfiguredFeature(Lnet/minecraft/util/RandomSource;Z)Lnet/minecraft/resources/ResourceKey;: getConfiguredFeature -> m_213888_
+Conflicting propagated mapping for net/weng1i/aquaticplus/screen/GemPolishingStationMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/minecraftforge/common/data/GlobalLootModifierProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
+Conflicting propagated mapping for net/minecraftforge/common/data/GlobalLootModifierProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/ModelProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture; from net/minecraft/data/DataProvider/run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;: run -> m_213708_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/ItemModelProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/ModBlockTagGenerator/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder/build()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;: build -> m_6409_
+Conflicting propagated mapping for net/minecraftforge/common/loot/LootTableIdCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType; from net/minecraft/world/level/storage/loot/predicates/LootItemCondition/getType()Lnet/minecraft/world/level/storage/loot/predicates/LootItemConditionType;: getType -> m_7940_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/ModItemTagGenerator/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/TagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/ModPoiTypeTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V from net/minecraft/data/tags/PoiTypeTagsProvider/addTags(Lnet/minecraft/core/HolderLookup$Provider;)V: addTags -> m_6577_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/ModRecipeProvider/oreSmelting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V from net/minecraft/data/recipes/RecipeProvider/oreSmelting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V: oreSmelting -> m_246272_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/ModRecipeProvider/oreBlasting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V from net/minecraft/data/recipes/RecipeProvider/oreBlasting(Ljava/util/function/Consumer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V: oreBlasting -> m_245412_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/ModRecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V from net/minecraft/data/recipes/RecipeProvider/buildRecipes(Ljava/util/function/Consumer;)V: buildRecipes -> m_245200_
+Conflicting propagated mapping for net/weng1i/aquaticplus/datagen/ModRecipeProvider/oreCooking(Ljava/util/function/Consumer;Lnet/minecraft/world/item/crafting/RecipeSerializer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;Ljava/lang/String;)V from net/minecraft/data/recipes/RecipeProvider/oreCooking(Ljava/util/function/Consumer;Lnet/minecraft/world/item/crafting/RecipeSerializer;Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;Ljava/lang/String;)V: oreCooking -> m_245809_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/FishRandomSwimGoal/canUse()Z from net/minecraft/world/entity/ai/goal/RandomStrollGoal/canUse()Z: canUse -> m_8036_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/FishRandomSwimGoal/getPosition()Lnet/minecraft/world/phys/Vec3; from net/minecraft/world/entity/ai/goal/RandomStrollGoal/getPosition()Lnet/minecraft/world/phys/Vec3;: getPosition -> m_7037_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/SwimGoalAngler/canUse()Z from net/minecraft/world/entity/ai/goal/Goal/canUse()Z: canUse -> m_8036_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/SwimGoalAngler/start()V from net/minecraft/world/entity/ai/goal/Goal/start()V: start -> m_8056_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/SwimGoalAngler/tick()V from net/minecraft/world/entity/ai/goal/Goal/tick()V: tick -> m_8037_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/SwimGoalAngler/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/Goal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal/isTimeToAttack()Z from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/isTimeToAttack()Z: isTimeToAttack -> m_25564_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal/resetAttackCooldown()V from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/resetAttackCooldown()V: resetAttackCooldown -> m_25563_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal/checkAndPerformAttack(Lnet/minecraft/world/entity/LivingEntity;D)V from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/checkAndPerformAttack(Lnet/minecraft/world/entity/LivingEntity;D)V: checkAndPerformAttack -> m_6739_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal/tick()V from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/tick()V: tick -> m_8037_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal/stop()V from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/stop()V: stop -> m_8041_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal/start()V from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/start()V: start -> m_8056_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal/getTicksUntilNextAttack()I from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getTicksUntilNextAttack()I: getTicksUntilNextAttack -> m_25565_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/ai/WaterEntityController/tick()V from net/minecraft/world/entity/ai/control/MoveControl/tick()V: tick -> m_8126_
+Conflicting propagated mapping for net/minecraftforge/client/model/generators/BlockModelProvider/getName()Ljava/lang/String; from net/minecraft/data/DataProvider/getName()Ljava/lang/String;: getName -> m_6055_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/shouldDespawnInPeaceful()Z from net/minecraft/world/entity/Mob/shouldDespawnInPeaceful()Z: shouldDespawnInPeaceful -> m_8028_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getTarget()Lnet/minecraft/world/entity/LivingEntity; from net/minecraft/world/entity/Mob/getTarget()Lnet/minecraft/world/entity/LivingEntity;: getTarget -> m_5448_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/swing(Lnet/minecraft/world/InteractionHand;)V from net/minecraft/world/entity/LivingEntity/swing(Lnet/minecraft/world/InteractionHand;)V: swing -> m_6674_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/SpawnGroupData; from net/minecraft/world/entity/Mob/finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/SpawnGroupData;: finalizeSpawn -> m_6518_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/updateSwingTime()V from net/minecraft/world/entity/LivingEntity/updateSwingTime()V: updateSwingTime -> m_21203_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/isMaxGroupSizeReached(I)Z from net/minecraft/world/entity/Mob/isMaxGroupSizeReached(I)Z: isMaxGroupSizeReached -> m_7296_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/checkSpawnRules(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/MobSpawnType;)Z from net/minecraft/world/entity/PathfinderMob/checkSpawnRules(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/MobSpawnType;)Z: checkSpawnRules -> m_5545_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation; from net/minecraft/world/entity/Mob/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation;: createNavigation -> m_6037_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/travel(Lnet/minecraft/world/phys/Vec3;)V from net/minecraft/world/entity/LivingEntity/travel(Lnet/minecraft/world/phys/Vec3;)V: travel -> m_7023_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/setLastHurtByMob(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/LivingEntity/setLastHurtByMob(Lnet/minecraft/world/entity/LivingEntity;)V: setLastHurtByMob -> m_6703_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/aiStep()V from net/minecraft/world/entity/Mob/aiStep()V: aiStep -> m_8107_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/animal/WaterAnimal/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getLastHurtByMob()Lnet/minecraft/world/entity/LivingEntity; from net/minecraft/world/entity/LivingEntity/getLastHurtByMob()Lnet/minecraft/world/entity/LivingEntity;: getLastHurtByMob -> m_21188_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getMaxSpawnClusterSize()I from net/minecraft/world/entity/Mob/getMaxSpawnClusterSize()I: getMaxSpawnClusterSize -> m_5792_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/setTarget(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/Mob/setTarget(Lnet/minecraft/world/entity/LivingEntity;)V: setTarget -> m_6710_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/swing(Lnet/minecraft/world/InteractionHand;Z)V from net/minecraft/world/entity/LivingEntity/swing(Lnet/minecraft/world/InteractionHand;Z)V: swing -> m_21011_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob; from net/minecraft/world/entity/AgeableMob/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;: getBreedOffspring -> m_142606_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/defineSynchedData()V from net/minecraft/world/entity/AgeableMob/defineSynchedData()V: defineSynchedData -> m_8097_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity/getCurrentSwingDuration()I from net/minecraft/world/entity/LivingEntity/getCurrentSwingDuration()I: getCurrentSwingDuration -> m_21304_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/SpawnGroupData; from net/minecraft/world/entity/Mob/finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/SpawnGroupData;: finalizeSpawn -> m_6518_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/tick()V from net/minecraft/world/entity/Mob/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/isMaxGroupSizeReached(I)Z from net/minecraft/world/entity/Mob/isMaxGroupSizeReached(I)Z: isMaxGroupSizeReached -> m_7296_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/isFood(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/entity/animal/Animal/isFood(Lnet/minecraft/world/item/ItemStack;)Z: isFood -> m_6898_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/checkSpawnRules(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/MobSpawnType;)Z from net/minecraft/world/entity/PathfinderMob/checkSpawnRules(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/MobSpawnType;)Z: checkSpawnRules -> m_5545_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation; from net/minecraft/world/entity/Mob/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation;: createNavigation -> m_6037_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModBoatEntity$Type/getSerializedName()Ljava/lang/String; from net/minecraft/util/StringRepresentable/getSerializedName()Ljava/lang/String;: getSerializedName -> m_7912_
+Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getPlaceSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getPlaceSound()Lnet/minecraft/sounds/SoundEvent;: getPlaceSound -> m_56777_
+Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getFallSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getFallSound()Lnet/minecraft/sounds/SoundEvent;: getFallSound -> m_56779_
+Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getStepSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getStepSound()Lnet/minecraft/sounds/SoundEvent;: getStepSound -> m_56776_
+Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getHitSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getHitSound()Lnet/minecraft/sounds/SoundEvent;: getHitSound -> m_56778_
+Conflicting propagated mapping for net/minecraftforge/common/util/ForgeSoundType/getBreakSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/level/block/SoundType/getBreakSound()Lnet/minecraft/sounds/SoundEvent;: getBreakSound -> m_56775_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/RhinoEntity/updateWalkAnimation(F)V from net/minecraft/world/entity/LivingEntity/updateWalkAnimation(F)V: updateWalkAnimation -> m_267689_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/travel(Lnet/minecraft/world/phys/Vec3;)V from net/minecraft/world/entity/LivingEntity/travel(Lnet/minecraft/world/phys/Vec3;)V: travel -> m_7023_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/minecraft/world/entity/vehicle/Boat/addPassenger(Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/entity/Entity/addPassenger(Lnet/minecraft/world/entity/Entity;)V: addPassenger -> m_20348_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/getMaxSpawnClusterSize()I from net/minecraft/world/entity/Mob/getMaxSpawnClusterSize()I: getMaxSpawnClusterSize -> m_5792_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/BluefinfishEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity$FishLikeMoveControl/tick()V from net/minecraft/world/entity/ai/control/MoveControl/tick()V: tick -> m_8126_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModBoatEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/vehicle/Boat/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/AnglerfishEntity$1/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/target/TargetGoal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/RhinoModel/root()Lnet/minecraft/client/model/geom/ModelPart; from net/minecraft/client/model/HierarchicalModel/root()Lnet/minecraft/client/model/geom/ModelPart;: root -> m_142109_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/RhinoModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/client/RhinoModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/HierarchicalModel/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModBoatEntity/defineSynchedData()V from net/minecraft/world/entity/vehicle/Boat/defineSynchedData()V: defineSynchedData -> m_8097_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModBoatEntity/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/vehicle/Boat/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: addAdditionalSaveData -> m_7380_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModBoatEntity/getDropItem()Lnet/minecraft/world/item/Item; from net/minecraft/world/entity/vehicle/Boat/getDropItem()Lnet/minecraft/world/item/Item;: getDropItem -> m_38369_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/DiceProjectileEntity/getDefaultItem()Lnet/minecraft/world/item/Item; from net/minecraft/world/entity/projectile/ThrowableItemProjectile/getDefaultItem()Lnet/minecraft/world/item/Item;: getDefaultItem -> m_7881_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/DiceProjectileEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/Projectile/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/custom/DiceItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/custom/MetalDetectorItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModChestBoatEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/vehicle/ChestBoat/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/custom/MetalDetectorItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/custom/ModBoatItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModChestBoatEntity/defineSynchedData()V from net/minecraft/world/entity/vehicle/Boat/defineSynchedData()V: defineSynchedData -> m_8097_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModChestBoatEntity/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/vehicle/ChestBoat/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: addAdditionalSaveData -> m_7380_
+Conflicting propagated mapping for net/weng1i/aquaticplus/entity/custom/ModChestBoatEntity/getDropItem()Lnet/minecraft/world/item/Item; from net/minecraft/world/entity/vehicle/ChestBoat/getDropItem()Lnet/minecraft/world/item/Item;: getDropItem -> m_38369_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/weng1i/aquaticplus/item/ModArmorMaterials/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe$Serializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromJson(Lnet/minecraft/resources/ResourceLocation;Lcom/google/gson/JsonObject;)Lnet/minecraft/world/item/crafting/Recipe;: fromJson -> m_6729_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe$Serializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe; from net/minecraft/world/item/crafting/RecipeSerializer/fromNetwork(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/world/item/crafting/Recipe;: fromNetwork -> m_8005_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for net/weng1i/aquaticplus/recipe/GemPolishingRecipe$Serializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V from net/minecraft/world/item/crafting/RecipeSerializer/toNetwork(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/item/crafting/Recipe;)V: toNetwork -> m_6178_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/carver/OriginCaveWorldCarver/canReplaceBlock(Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/levelgen/carver/WorldCarver/canReplaceBlock(Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;Lnet/minecraft/world/level/block/state/BlockState;)Z: canReplaceBlock -> m_224910_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7993_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/tree/custom/PineFoliagePlacer/type()Lnet/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacerType; from net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer/type()Lnet/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacerType;: type -> m_5897_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/tree/custom/PineFoliagePlacer/foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I from net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer/foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I: foliageHeight -> m_214116_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/tree/custom/PineFoliagePlacer/createFoliage(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer$FoliageSetter;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;ILnet/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer$FoliageAttachment;III)V from net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer/createFoliage(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer$FoliageSetter;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;ILnet/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer$FoliageAttachment;III)V: createFoliage -> m_213633_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/tree/custom/PineFoliagePlacer/shouldSkipLocation(Lnet/minecraft/util/RandomSource;IIIIZ)Z from net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer/shouldSkipLocation(Lnet/minecraft/util/RandomSource;IIIIZ)Z: shouldSkipLocation -> m_214203_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/tree/custom/PineTrunkPlacer/type()Lnet/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacerType; from net/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacer/type()Lnet/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacerType;: type -> m_7362_
+Conflicting propagated mapping for net/weng1i/aquaticplus/worldgen/tree/custom/PineTrunkPlacer/placeTrunk(Lnet/minecraft/world/level/LevelSimulatedReader;Ljava/util/function/BiConsumer;Lnet/minecraft/util/RandomSource;ILnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)Ljava/util/List; from net/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacer/placeTrunk(Lnet/minecraft/world/level/LevelSimulatedReader;Ljava/util/function/BiConsumer;Lnet/minecraft/util/RandomSource;ILnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)Ljava/util/List;: placeTrunk -> m_213934_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/inventory/Slot/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I: getMaxStackSize -> m_5866_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
+Adding extras
+Sorting
+Writing Output: D:\Ideaprojects\aquaticplus\test\build\reobfJar\output.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  .cache/
+  .cache/07541b0c8c51b9c2ae5653dfdb3d58ba90042284
+  .cache/103d9f3f36b01595f1aa5172191e60eff02e6924
+  .cache/29becef8de13c5b4970054edee361960e50851c1
+  .cache/42cbdd65728f1b72927678bf6253fa2a1b6e541e
+  .cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d
+  .cache/76af452b6e3d237d12f55b86e2951c8cfd860ee7
+  .cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
+  .cache/b6ef4fe31ac8226c8c4719c79fa6aaa1db08b37c
+  .cache/eaaedc6ae48b868a23401706b6ddd249f808acd2
+  META-INF/mods.toml
+  assets/
+  assets/aquaticplus/
+  assets/aquaticplus/animations/
+  assets/aquaticplus/animations/anglerfish.animation.json
+  assets/aquaticplus/animations/bluefinfish.animation.json
+  assets/aquaticplus/blockstates/
+  assets/aquaticplus/blockstates/catmint.json
+  assets/aquaticplus/blockstates/corn_crop.json
+  assets/aquaticplus/blockstates/deepslate_sapphire_ore.json
+  assets/aquaticplus/blockstates/dice_block.json
+  assets/aquaticplus/blockstates/end_stone_sapphire_ore.json
+  assets/aquaticplus/blockstates/gem_polishing_station.json
+  assets/aquaticplus/blockstates/mod_portal.json
+  assets/aquaticplus/blockstates/nether_sapphire_ore.json
+  assets/aquaticplus/blockstates/pine_hanging_sign.json
+  assets/aquaticplus/blockstates/pine_leaves.json
+  assets/aquaticplus/blockstates/pine_log.json
+  assets/aquaticplus/blockstates/pine_planks.json
+  assets/aquaticplus/blockstates/pine_sapling.json
+  assets/aquaticplus/blockstates/pine_sign.json
+  assets/aquaticplus/blockstates/pine_wall_hanging_sign.json
+  assets/aquaticplus/blockstates/pine_wall_sign.json
+  assets/aquaticplus/blockstates/pine_wood.json
+  assets/aquaticplus/blockstates/potted_catmint.json
+  assets/aquaticplus/blockstates/raw_sapphire_block.json
+  assets/aquaticplus/blockstates/sapphire_block.json
+  assets/aquaticplus/blockstates/sapphire_button.json
+  assets/aquaticplus/blockstates/sapphire_door.json
+  assets/aquaticplus/blockstates/sapphire_fence.json
+  assets/aquaticplus/blockstates/sapphire_fence_gate.json
+  assets/aquaticplus/blockstates/sapphire_ore.json
+  assets/aquaticplus/blockstates/sapphire_pressure_plate.json
+  assets/aquaticplus/blockstates/sapphire_slab.json
+  assets/aquaticplus/blockstates/sapphire_stairs.json
+  assets/aquaticplus/blockstates/sapphire_trapdoor.json
+  assets/aquaticplus/blockstates/sapphire_wall.json
+  assets/aquaticplus/blockstates/sound_block.json
+  assets/aquaticplus/blockstates/strawberry_crop.json
+  assets/aquaticplus/blockstates/stripped_pine_log.json
+  assets/aquaticplus/blockstates/stripped_pine_wood.json
+  assets/aquaticplus/geo/
+  assets/aquaticplus/geo/anglerfish.geo.json
+  assets/aquaticplus/geo/bluefinfish.geo.json
+  assets/aquaticplus/lang/
+  assets/aquaticplus/lang/en_us.json
+  assets/aquaticplus/models/
+  assets/aquaticplus/models/block/
+  assets/aquaticplus/models/block/catmint.json
+  assets/aquaticplus/models/block/corn_stage_0.json
+  assets/aquaticplus/models/block/corn_stage_1.json
+  assets/aquaticplus/models/block/corn_stage_2.json
+  assets/aquaticplus/models/block/corn_stage_3.json
+  assets/aquaticplus/models/block/corn_stage_4.json
+  assets/aquaticplus/models/block/corn_stage_5.json
+  assets/aquaticplus/models/block/corn_stage_6.json
+  assets/aquaticplus/models/block/corn_stage_7.json
+  assets/aquaticplus/models/block/corn_stage_8.json
+  assets/aquaticplus/models/block/deepslate_sapphire_ore.json
+  assets/aquaticplus/models/block/dice_1.json
+  assets/aquaticplus/models/block/dice_2.json
+  assets/aquaticplus/models/block/dice_3.json
+  assets/aquaticplus/models/block/dice_4.json
+  assets/aquaticplus/models/block/dice_5.json
+  assets/aquaticplus/models/block/dice_6.json
+  assets/aquaticplus/models/block/end_stone_sapphire_ore.json
+  assets/aquaticplus/models/block/gem_polishing_station.json
+  assets/aquaticplus/models/block/mod_portal.json
+  assets/aquaticplus/models/block/nether_sapphire_ore.json
+  assets/aquaticplus/models/block/pine_hanging_sign.json
+  assets/aquaticplus/models/block/pine_leaves.json
+  assets/aquaticplus/models/block/pine_log.json
+  assets/aquaticplus/models/block/pine_log_horizontal.json
+  assets/aquaticplus/models/block/pine_planks.json
+  assets/aquaticplus/models/block/pine_sapling.json
+  assets/aquaticplus/models/block/pine_sign.json
+  assets/aquaticplus/models/block/pine_wood.json
+  assets/aquaticplus/models/block/pine_wood_horizontal.json
+  assets/aquaticplus/models/block/potted_catmint.json
+  assets/aquaticplus/models/block/raw_sapphire_block.json
+  assets/aquaticplus/models/block/sapphire_block.json
+  assets/aquaticplus/models/block/sapphire_button.json
+  assets/aquaticplus/models/block/sapphire_button_pressed.json
+  assets/aquaticplus/models/block/sapphire_door_bottom_left.json
+  assets/aquaticplus/models/block/sapphire_door_bottom_left_open.json
+  assets/aquaticplus/models/block/sapphire_door_bottom_right.json
+  assets/aquaticplus/models/block/sapphire_door_bottom_right_open.json
+  assets/aquaticplus/models/block/sapphire_door_top_left.json
+  assets/aquaticplus/models/block/sapphire_door_top_left_open.json
+  assets/aquaticplus/models/block/sapphire_door_top_right.json
+  assets/aquaticplus/models/block/sapphire_door_top_right_open.json
+  assets/aquaticplus/models/block/sapphire_fence_gate.json
+  assets/aquaticplus/models/block/sapphire_fence_gate_open.json
+  assets/aquaticplus/models/block/sapphire_fence_gate_wall.json
+  assets/aquaticplus/models/block/sapphire_fence_gate_wall_open.json
+  assets/aquaticplus/models/block/sapphire_fence_post.json
+  assets/aquaticplus/models/block/sapphire_fence_side.json
+  assets/aquaticplus/models/block/sapphire_ore.json
+  assets/aquaticplus/models/block/sapphire_pressure_plate.json
+  assets/aquaticplus/models/block/sapphire_pressure_plate_down.json
+  assets/aquaticplus/models/block/sapphire_slab.json
+  assets/aquaticplus/models/block/sapphire_slab_top.json
+  assets/aquaticplus/models/block/sapphire_stairs.json
+  assets/aquaticplus/models/block/sapphire_stairs_inner.json
+  assets/aquaticplus/models/block/sapphire_stairs_outer.json
+  assets/aquaticplus/models/block/sapphire_trapdoor_bottom.json
+  assets/aquaticplus/models/block/sapphire_trapdoor_open.json
+  assets/aquaticplus/models/block/sapphire_trapdoor_top.json
+  assets/aquaticplus/models/block/sapphire_wall_post.json
+  assets/aquaticplus/models/block/sapphire_wall_side.json
+  assets/aquaticplus/models/block/sapphire_wall_side_tall.json
+  assets/aquaticplus/models/block/sound_block.json
+  assets/aquaticplus/models/block/strawberry_stage0.json
+  assets/aquaticplus/models/block/strawberry_stage1.json
+  assets/aquaticplus/models/block/strawberry_stage2.json
+  assets/aquaticplus/models/block/strawberry_stage3.json
+  assets/aquaticplus/models/block/strawberry_stage4.json
+  assets/aquaticplus/models/block/strawberry_stage5.json
+  assets/aquaticplus/models/block/stripped_pine_log.json
+  assets/aquaticplus/models/block/stripped_pine_log_horizontal.json
+  assets/aquaticplus/models/block/stripped_pine_wood.json
+  assets/aquaticplus/models/block/stripped_pine_wood_horizontal.json
+  assets/aquaticplus/models/item/
+  assets/aquaticplus/models/item/anglerfish_spawn_egg.json
+  assets/aquaticplus/models/item/bar_brawl_music_disc.json
+  assets/aquaticplus/models/item/bluefinfish_spawn_egg.json
+  assets/aquaticplus/models/item/catmint.json
+  assets/aquaticplus/models/item/corn.json
+  assets/aquaticplus/models/item/corn_seeds.json
+  assets/aquaticplus/models/item/deepslate_sapphire_ore.json
+  assets/aquaticplus/models/item/dice.json
+  assets/aquaticplus/models/item/end_stone_sapphire_ore.json
+  assets/aquaticplus/models/item/gem_polishing_station.json
+  assets/aquaticplus/models/item/metal_detector.json
+  assets/aquaticplus/models/item/mod_portal.json
+  assets/aquaticplus/models/item/nether_sapphire_ore.json
+  assets/aquaticplus/models/item/pine_boat.json
+  assets/aquaticplus/models/item/pine_chest_boat.json
+  assets/aquaticplus/models/item/pine_cone.json
+  assets/aquaticplus/models/item/pine_hanging_sign.json
+  assets/aquaticplus/models/item/pine_leaves.json
+  assets/aquaticplus/models/item/pine_log.json
+  assets/aquaticplus/models/item/pine_planks.json
+  assets/aquaticplus/models/item/pine_sapling.json
+  assets/aquaticplus/models/item/pine_sign.json
+  assets/aquaticplus/models/item/pine_wood.json
+  assets/aquaticplus/models/item/potted_catmint.json
+  assets/aquaticplus/models/item/raw_sapphire.json
+  assets/aquaticplus/models/item/raw_sapphire_block.json
+  assets/aquaticplus/models/item/rhino_spawn_egg.json
+  assets/aquaticplus/models/item/sapphire.json
+  assets/aquaticplus/models/item/sapphire_axe.json
+  assets/aquaticplus/models/item/sapphire_block.json
+  assets/aquaticplus/models/item/sapphire_boots.json
+  assets/aquaticplus/models/item/sapphire_boots_amethyst_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_copper_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_diamond_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_emerald_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_gold_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_iron_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_lapis_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_netherite_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_quartz_trim.json
+  assets/aquaticplus/models/item/sapphire_boots_redstone_trim.json
+  assets/aquaticplus/models/item/sapphire_button.json
+  assets/aquaticplus/models/item/sapphire_chestplate.json
+  assets/aquaticplus/models/item/sapphire_chestplate_amethyst_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_copper_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_diamond_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_emerald_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_gold_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_iron_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_lapis_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_netherite_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_quartz_trim.json
+  assets/aquaticplus/models/item/sapphire_chestplate_redstone_trim.json
+  assets/aquaticplus/models/item/sapphire_door.json
+  assets/aquaticplus/models/item/sapphire_fence.json
+  assets/aquaticplus/models/item/sapphire_fence_gate.json
+  assets/aquaticplus/models/item/sapphire_helmet.json
+  assets/aquaticplus/models/item/sapphire_helmet_amethyst_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_copper_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_diamond_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_emerald_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_gold_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_iron_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_lapis_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_netherite_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_quartz_trim.json
+  assets/aquaticplus/models/item/sapphire_helmet_redstone_trim.json
+  assets/aquaticplus/models/item/sapphire_hoe.json
+  assets/aquaticplus/models/item/sapphire_leggings.json
+  assets/aquaticplus/models/item/sapphire_leggings_amethyst_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_copper_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_diamond_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_emerald_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_gold_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_iron_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_lapis_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_netherite_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_quartz_trim.json
+  assets/aquaticplus/models/item/sapphire_leggings_redstone_trim.json
+  assets/aquaticplus/models/item/sapphire_ore.json
+  assets/aquaticplus/models/item/sapphire_pickaxe.json
+  assets/aquaticplus/models/item/sapphire_pressure_plate.json
+  assets/aquaticplus/models/item/sapphire_shovel.json
+  assets/aquaticplus/models/item/sapphire_slab.json
+  assets/aquaticplus/models/item/sapphire_staff.json
+  assets/aquaticplus/models/item/sapphire_staff_2d.json
+  assets/aquaticplus/models/item/sapphire_staff_3d.json
+  assets/aquaticplus/models/item/sapphire_stairs.json
+  assets/aquaticplus/models/item/sapphire_sword.json
+  assets/aquaticplus/models/item/sapphire_trapdoor.json
+  assets/aquaticplus/models/item/sapphire_wall.json
+  assets/aquaticplus/models/item/sound_block.json
+  assets/aquaticplus/models/item/strawberry.json
+  assets/aquaticplus/models/item/strawberry_seeds.json
+  assets/aquaticplus/models/item/stripped_pine_log.json
+  assets/aquaticplus/models/item/stripped_pine_wood.json
+  assets/aquaticplus/sounds.json
+  assets/aquaticplus/sounds/
+  assets/aquaticplus/sounds/angler_ambient.ogg
+  assets/aquaticplus/sounds/angler_bite.ogg
+  assets/aquaticplus/sounds/angler_dead.ogg
+  assets/aquaticplus/sounds/bar_brawl.ogg
+  assets/aquaticplus/sounds/metal_detector_found_ore.ogg
+  assets/aquaticplus/sounds/sound_block_break.ogg
+  assets/aquaticplus/sounds/sound_block_fall.ogg
+  assets/aquaticplus/sounds/sound_block_hit.ogg
+  assets/aquaticplus/sounds/sound_block_place.ogg
+  assets/aquaticplus/sounds/sound_block_step.ogg
+  assets/aquaticplus/textures/
+  assets/aquaticplus/textures/block/
+  assets/aquaticplus/textures/block/catmint.png
+  assets/aquaticplus/textures/block/corn_stage_0.png
+  assets/aquaticplus/textures/block/corn_stage_1.png
+  assets/aquaticplus/textures/block/corn_stage_2.png
+  assets/aquaticplus/textures/block/corn_stage_3.png
+  assets/aquaticplus/textures/block/corn_stage_4.png
+  assets/aquaticplus/textures/block/corn_stage_5.png
+  assets/aquaticplus/textures/block/corn_stage_6.png
+  assets/aquaticplus/textures/block/corn_stage_7.png
+  assets/aquaticplus/textures/block/corn_stage_8.png
+  assets/aquaticplus/textures/block/deepslate_sapphire_ore.png
+  assets/aquaticplus/textures/block/dice_1.png
+  assets/aquaticplus/textures/block/dice_2.png
+  assets/aquaticplus/textures/block/dice_3.png
+  assets/aquaticplus/textures/block/dice_4.png
+  assets/aquaticplus/textures/block/dice_5.png
+  assets/aquaticplus/textures/block/dice_6.png
+  assets/aquaticplus/textures/block/end_stone_sapphire_ore.png
+  assets/aquaticplus/textures/block/gem_polishing_station_texture.png
+  assets/aquaticplus/textures/block/mod_portal.png
+  assets/aquaticplus/textures/block/nether_sapphire_ore.png
+  assets/aquaticplus/textures/block/pine_leaves.png
+  assets/aquaticplus/textures/block/pine_log.png
+  assets/aquaticplus/textures/block/pine_log_top.png
+  assets/aquaticplus/textures/block/pine_planks.png
+  assets/aquaticplus/textures/block/pine_sapling.png
+  assets/aquaticplus/textures/block/raw_sapphire_block.png
+  assets/aquaticplus/textures/block/sapphire_block.png
+  assets/aquaticplus/textures/block/sapphire_door_bottom.png
+  assets/aquaticplus/textures/block/sapphire_door_top.png
+  assets/aquaticplus/textures/block/sapphire_ore.png
+  assets/aquaticplus/textures/block/sapphire_trapdoor.png
+  assets/aquaticplus/textures/block/sound_block.png
+  assets/aquaticplus/textures/block/strawberry_stage0.png
+  assets/aquaticplus/textures/block/strawberry_stage1.png
+  assets/aquaticplus/textures/block/strawberry_stage2.png
+  assets/aquaticplus/textures/block/strawberry_stage3.png
+  assets/aquaticplus/textures/block/strawberry_stage4.png
+  assets/aquaticplus/textures/block/strawberry_stage5.png
+  assets/aquaticplus/textures/block/stripped_pine_log.png
+  assets/aquaticplus/textures/block/stripped_pine_log_top.png
+  assets/aquaticplus/textures/entity/
+  assets/aquaticplus/textures/entity/anglerfish.png
+  assets/aquaticplus/textures/entity/bluefinfish.png
+  assets/aquaticplus/textures/entity/boat/
+  assets/aquaticplus/textures/entity/boat/pine.png
+  assets/aquaticplus/textures/entity/chest_boat/
+  assets/aquaticplus/textures/entity/chest_boat/pine.png
+  assets/aquaticplus/textures/entity/rhino.png
+  assets/aquaticplus/textures/entity/signs/
+  assets/aquaticplus/textures/entity/signs/hanging/
+  assets/aquaticplus/textures/entity/signs/hanging/pine.png
+  assets/aquaticplus/textures/entity/signs/pine.png
+  assets/aquaticplus/textures/entity/villager/
+  assets/aquaticplus/textures/entity/villager/profession/
+  assets/aquaticplus/textures/entity/villager/profession/soundmaster.png
+  assets/aquaticplus/textures/gui/
+  assets/aquaticplus/textures/gui/gem_polishing_station_gui.png
+  assets/aquaticplus/textures/item/
+  assets/aquaticplus/textures/item/bar_brawl_music_disc.png
+  assets/aquaticplus/textures/item/cooked_bluefinfish.png
+  assets/aquaticplus/textures/item/corn.png
+  assets/aquaticplus/textures/item/corn_seeds.png
+  assets/aquaticplus/textures/item/dice.png
+  assets/aquaticplus/textures/item/metal_detector.png
+  assets/aquaticplus/textures/item/pine_boat.png
+  assets/aquaticplus/textures/item/pine_chest_boat.png
+  assets/aquaticplus/textures/item/pine_cone.png
+  assets/aquaticplus/textures/item/pine_hanging_sign.png
+  assets/aquaticplus/textures/item/pine_sign.png
+  assets/aquaticplus/textures/item/raw_bluefinfish.png
+  assets/aquaticplus/textures/item/raw_sapphire.png
+  assets/aquaticplus/textures/item/sapphire.png
+  assets/aquaticplus/textures/item/sapphire_axe.png
+  assets/aquaticplus/textures/item/sapphire_boots.png
+  assets/aquaticplus/textures/item/sapphire_chestplate.png
+  assets/aquaticplus/textures/item/sapphire_door.png
+  assets/aquaticplus/textures/item/sapphire_helmet.png
+  assets/aquaticplus/textures/item/sapphire_hoe.png
+  assets/aquaticplus/textures/item/sapphire_leggings.png
+  assets/aquaticplus/textures/item/sapphire_pickaxe.png
+  assets/aquaticplus/textures/item/sapphire_shovel.png
+  assets/aquaticplus/textures/item/sapphire_staff.png
+  assets/aquaticplus/textures/item/sapphire_staff_3d.png
+  assets/aquaticplus/textures/item/sapphire_sword.png
+  assets/aquaticplus/textures/item/strawberry.png
+  assets/aquaticplus/textures/item/strawberry_seeds.png
+  assets/aquaticplus/textures/models/
+  assets/aquaticplus/textures/models/armor/
+  assets/aquaticplus/textures/models/armor/sapphire_layer_1.png
+  assets/aquaticplus/textures/models/armor/sapphire_layer_2.png
+  data/
+  data/aquaticplus/
+  data/aquaticplus/advancements/
+  data/aquaticplus/advancements/recipes/
+  data/aquaticplus/advancements/recipes/misc/
+  data/aquaticplus/advancements/recipes/misc/sapphire.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_block.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_blasting_deepslate_sapphire_ore.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_blasting_end_stone_sapphire_ore.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_blasting_nether_sapphire_ore.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_blasting_raw_sapphire.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_blasting_sapphire_ore.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_smelting_deepslate_sapphire_ore.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_smelting_end_stone_sapphire_ore.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_smelting_nether_sapphire_ore.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_smelting_raw_sapphire.json
+  data/aquaticplus/advancements/recipes/misc/sapphire_from_smelting_sapphire_ore.json
+  data/aquaticplus/dimension/
+  data/aquaticplus/dimension/kaupendim.json
+  data/aquaticplus/dimension_type/
+  data/aquaticplus/dimension_type/kaupendim_type.json
+  data/aquaticplus/forge/
+  data/aquaticplus/forge/biome_modifier/
+  data/aquaticplus/forge/biome_modifier/add_end_sapphire_ore.json
+  data/aquaticplus/forge/biome_modifier/add_nether_sapphire_ore.json
+  data/aquaticplus/forge/biome_modifier/add_sapphire_ore.json
+  data/aquaticplus/forge/biome_modifier/add_tree_pine.json
+  data/aquaticplus/forge/biome_modifier/am_mob_spawns.json
+  data/aquaticplus/loot_modifiers/
+  data/aquaticplus/loot_modifiers/metal_detector_from_jungle_temples.json
+  data/aquaticplus/loot_modifiers/metal_detector_from_suspicious_sand.json
+  data/aquaticplus/loot_modifiers/pine_cone_from_creeper.json
+  data/aquaticplus/loot_modifiers/pine_cone_from_grass.json
+  data/aquaticplus/loot_tables/
+  data/aquaticplus/loot_tables/blocks/
+  data/aquaticplus/loot_tables/blocks/catmint.json
+  data/aquaticplus/loot_tables/blocks/corn_crop.json
+  data/aquaticplus/loot_tables/blocks/deepslate_sapphire_ore.json
+  data/aquaticplus/loot_tables/blocks/end_stone_sapphire_ore.json
+  data/aquaticplus/loot_tables/blocks/gem_polishing_station.json
+  data/aquaticplus/loot_tables/blocks/nether_sapphire_ore.json
+  data/aquaticplus/loot_tables/blocks/pine_hanging_sign.json
+  data/aquaticplus/loot_tables/blocks/pine_leaves.json
+  data/aquaticplus/loot_tables/blocks/pine_log.json
+  data/aquaticplus/loot_tables/blocks/pine_planks.json
+  data/aquaticplus/loot_tables/blocks/pine_sapling.json
+  data/aquaticplus/loot_tables/blocks/pine_sign.json
+  data/aquaticplus/loot_tables/blocks/pine_wall_hanging_sign.json
+  data/aquaticplus/loot_tables/blocks/pine_wall_sign.json
+  data/aquaticplus/loot_tables/blocks/pine_wood.json
+  data/aquaticplus/loot_tables/blocks/potted_catmint.json
+  data/aquaticplus/loot_tables/blocks/raw_sapphire_block.json
+  data/aquaticplus/loot_tables/blocks/sapphire_block.json
+  data/aquaticplus/loot_tables/blocks/sapphire_button.json
+  data/aquaticplus/loot_tables/blocks/sapphire_door.json
+  data/aquaticplus/loot_tables/blocks/sapphire_fence.json
+  data/aquaticplus/loot_tables/blocks/sapphire_fence_gate.json
+  data/aquaticplus/loot_tables/blocks/sapphire_ore.json
+  data/aquaticplus/loot_tables/blocks/sapphire_pressure_plate.json
+  data/aquaticplus/loot_tables/blocks/sapphire_slab.json
+  data/aquaticplus/loot_tables/blocks/sapphire_stairs.json
+  data/aquaticplus/loot_tables/blocks/sapphire_trapdoor.json
+  data/aquaticplus/loot_tables/blocks/sapphire_wall.json
+  data/aquaticplus/loot_tables/blocks/sound_block.json
+  data/aquaticplus/loot_tables/blocks/strawberry_crop.json
+  data/aquaticplus/loot_tables/blocks/stripped_pine_log.json
+  data/aquaticplus/loot_tables/blocks/stripped_pine_wood.json
+  data/aquaticplus/recipes/
+  data/aquaticplus/recipes/diamond_from_gem_polishing.json
+  data/aquaticplus/recipes/sapphire.json
+  data/aquaticplus/recipes/sapphire_block.json
+  data/aquaticplus/recipes/sapphire_from_blasting_deepslate_sapphire_ore.json
+  data/aquaticplus/recipes/sapphire_from_blasting_end_stone_sapphire_ore.json
+  data/aquaticplus/recipes/sapphire_from_blasting_nether_sapphire_ore.json
+  data/aquaticplus/recipes/sapphire_from_blasting_raw_sapphire.json
+  data/aquaticplus/recipes/sapphire_from_blasting_sapphire_ore.json
+  data/aquaticplus/recipes/sapphire_from_gem_polishing.json
+  data/aquaticplus/recipes/sapphire_from_smelting_deepslate_sapphire_ore.json
+  data/aquaticplus/recipes/sapphire_from_smelting_end_stone_sapphire_ore.json
+  data/aquaticplus/recipes/sapphire_from_smelting_nether_sapphire_ore.json
+  data/aquaticplus/recipes/sapphire_from_smelting_raw_sapphire.json
+  data/aquaticplus/recipes/sapphire_from_smelting_sapphire_ore.json
+  data/aquaticplus/tags/
+  data/aquaticplus/tags/blocks/
+  data/aquaticplus/tags/blocks/metal_detector_valuables.json
+  data/aquaticplus/tags/blocks/needs_sapphire_tool.json
+  data/aquaticplus/worldgen/
+  data/aquaticplus/worldgen/biome/
+  data/aquaticplus/worldgen/biome/test_biome.json
+  data/aquaticplus/worldgen/configured_feature/
+  data/aquaticplus/worldgen/configured_feature/end_sapphire_ore.json
+  data/aquaticplus/worldgen/configured_feature/nether_sapphire_ore.json
+  data/aquaticplus/worldgen/configured_feature/pine.json
+  data/aquaticplus/worldgen/configured_feature/sapphire_ore.json
+  data/aquaticplus/worldgen/placed_feature/
+  data/aquaticplus/worldgen/placed_feature/end_sapphire_ore_placed.json
+  data/aquaticplus/worldgen/placed_feature/nether_sapphire_ore_placed.json
+  data/aquaticplus/worldgen/placed_feature/pine_placed.json
+  data/aquaticplus/worldgen/placed_feature/sapphire_ore_placed.json
+  data/forge/
+  data/forge/loot_modifiers/
+  data/forge/loot_modifiers/global_loot_modifiers.json
+  data/forge/tags/
+  data/forge/tags/blocks/
+  data/forge/tags/blocks/needs_netherite_tool.json
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/fence_gates.json
+  data/minecraft/tags/blocks/fences.json
+  data/minecraft/tags/blocks/logs_that_burn.json
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/blocks/needs_diamond_tool.json
+  data/minecraft/tags/blocks/needs_iron_tool.json
+  data/minecraft/tags/blocks/needs_stone_tool.json
+  data/minecraft/tags/blocks/planks.json
+  data/minecraft/tags/blocks/walls.json
+  data/minecraft/tags/items/
+  data/minecraft/tags/items/creeper_drop_music_discs.json
+  data/minecraft/tags/items/logs_that_burn.json
+  data/minecraft/tags/items/music_discs.json
+  data/minecraft/tags/items/planks.json
+  data/minecraft/tags/items/trimmable_armor.json
+  data/minecraft/tags/point_of_interest_type/
+  data/minecraft/tags/point_of_interest_type/acquirable_job_site.json
+  net/
+  net/weng1i/
+  net/weng1i/aquaticplus/
+  net/weng1i/aquaticplus/Aquaticplus$ClientModEvents.class
+  net/weng1i/aquaticplus/Aquaticplus.class
+  net/weng1i/aquaticplus/ClientProxy.class
+  net/weng1i/aquaticplus/CommonProxy.class
+  net/weng1i/aquaticplus/block/
+  net/weng1i/aquaticplus/block/ModBlocks$1.class
+  net/weng1i/aquaticplus/block/ModBlocks$2.class
+  net/weng1i/aquaticplus/block/ModBlocks.class
+  net/weng1i/aquaticplus/block/custom/
+  net/weng1i/aquaticplus/block/custom/CornCropBlock.class
+  net/weng1i/aquaticplus/block/custom/DiceBlock.class
+  net/weng1i/aquaticplus/block/custom/GemPolishingStationBlock.class
+  net/weng1i/aquaticplus/block/custom/ModFlammableRotatedPillarBlock.class
+  net/weng1i/aquaticplus/block/custom/ModHangingSignBlock.class
+  net/weng1i/aquaticplus/block/custom/ModPortalBlock.class
+  net/weng1i/aquaticplus/block/custom/ModStandingSignBlock.class
+  net/weng1i/aquaticplus/block/custom/ModWallHangingSignBlock.class
+  net/weng1i/aquaticplus/block/custom/ModWallSignBlock.class
+  net/weng1i/aquaticplus/block/custom/SoundBlock.class
+  net/weng1i/aquaticplus/block/custom/StrawberryCropBlock.class
+  net/weng1i/aquaticplus/block/entity/
+  net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity$1.class
+  net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity$2.class
+  net/weng1i/aquaticplus/block/entity/GemPolishingStationBlockEntity.class
+  net/weng1i/aquaticplus/block/entity/ModBlockEntities.class
+  net/weng1i/aquaticplus/block/entity/ModHangingSignBlockEntity.class
+  net/weng1i/aquaticplus/block/entity/ModSignBlockEntity.class
+  net/weng1i/aquaticplus/block/entity/renderer/
+  net/weng1i/aquaticplus/block/entity/renderer/GemPolishingBlockEntityRenderer.class
+  net/weng1i/aquaticplus/compat/
+  net/weng1i/aquaticplus/compat/GemPolishingCategory.class
+  net/weng1i/aquaticplus/compat/JEIAquaticplusPlugin.class
+  net/weng1i/aquaticplus/config/
+  net/weng1i/aquaticplus/config/BiomeConfig.class
+  net/weng1i/aquaticplus/config/BiomesGroup.class
+  net/weng1i/aquaticplus/config/CommonConfig.class
+  net/weng1i/aquaticplus/config/ConfigHolder.class
+  net/weng1i/aquaticplus/config/SpawnConfig.class
+  net/weng1i/aquaticplus/datagen/
+  net/weng1i/aquaticplus/datagen/DataGenerators.class
+  net/weng1i/aquaticplus/datagen/ModBlockStateProvider.class
+  net/weng1i/aquaticplus/datagen/ModBlockTagGenerator.class
+  net/weng1i/aquaticplus/datagen/ModGlobalLootModifiersProvider.class
+  net/weng1i/aquaticplus/datagen/ModItemModelProvider$1.class
+  net/weng1i/aquaticplus/datagen/ModItemModelProvider.class
+  net/weng1i/aquaticplus/datagen/ModItemTagGenerator.class
+  net/weng1i/aquaticplus/datagen/ModLootTableProvider.class
+  net/weng1i/aquaticplus/datagen/ModPoiTypeTagsProvider.class
+  net/weng1i/aquaticplus/datagen/ModRecipeProvider.class
+  net/weng1i/aquaticplus/datagen/ModWorldGenProvider.class
+  net/weng1i/aquaticplus/datagen/loot/
+  net/weng1i/aquaticplus/datagen/loot/ModBlockLootTables.class
+  net/weng1i/aquaticplus/entity/
+  net/weng1i/aquaticplus/entity/ModEntities.class
+  net/weng1i/aquaticplus/entity/ai/
+  net/weng1i/aquaticplus/entity/ai/FishRandomSwimGoal.class
+  net/weng1i/aquaticplus/entity/ai/RhinoAttackGoal.class
+  net/weng1i/aquaticplus/entity/ai/SwimGoalAngler.class
+  net/weng1i/aquaticplus/entity/ai/WaterEntityController.class
+  net/weng1i/aquaticplus/entity/animations/
+  net/weng1i/aquaticplus/entity/animations/ModAnimationDefinitions.class
+  net/weng1i/aquaticplus/entity/client/
+  net/weng1i/aquaticplus/entity/client/AnglerfishModel.class
+  net/weng1i/aquaticplus/entity/client/AnglerfishRenderer.class
+  net/weng1i/aquaticplus/entity/client/BluefinfishModel.class
+  net/weng1i/aquaticplus/entity/client/BluefinfishRenderer.class
+  net/weng1i/aquaticplus/entity/client/ModBoatRenderer.class
+  net/weng1i/aquaticplus/entity/client/ModModelLayers.class
+  net/weng1i/aquaticplus/entity/client/RhinoModel.class
+  net/weng1i/aquaticplus/entity/client/RhinoRenderer.class
+  net/weng1i/aquaticplus/entity/custom/
+  net/weng1i/aquaticplus/entity/custom/AnglerfishEntity$1.class
+  net/weng1i/aquaticplus/entity/custom/AnglerfishEntity$FishLikeMoveControl.class
+  net/weng1i/aquaticplus/entity/custom/AnglerfishEntity.class
+  net/weng1i/aquaticplus/entity/custom/BluefinfishEntity.class
+  net/weng1i/aquaticplus/entity/custom/DiceProjectileEntity.class
+  net/weng1i/aquaticplus/entity/custom/ModBoatEntity$1.class
+  net/weng1i/aquaticplus/entity/custom/ModBoatEntity$Type.class
+  net/weng1i/aquaticplus/entity/custom/ModBoatEntity.class
+  net/weng1i/aquaticplus/entity/custom/ModChestBoatEntity$1.class
+  net/weng1i/aquaticplus/entity/custom/ModChestBoatEntity.class
+  net/weng1i/aquaticplus/entity/custom/RhinoEntity.class
+  net/weng1i/aquaticplus/event/
+  net/weng1i/aquaticplus/event/ModEventBusClientEvents.class
+  net/weng1i/aquaticplus/event/ModEventBusEvents.class
+  net/weng1i/aquaticplus/event/ModEvents.class
+  net/weng1i/aquaticplus/item/
+  net/weng1i/aquaticplus/item/ModArmorMaterials.class
+  net/weng1i/aquaticplus/item/ModCreativeModTabs.class
+  net/weng1i/aquaticplus/item/ModFoods.class
+  net/weng1i/aquaticplus/item/ModItems.class
+  net/weng1i/aquaticplus/item/ModToolTiers.class
+  net/weng1i/aquaticplus/item/custom/
+  net/weng1i/aquaticplus/item/custom/DiceItem.class
+  net/weng1i/aquaticplus/item/custom/FuelItem.class
+  net/weng1i/aquaticplus/item/custom/MetalDetectorItem.class
+  net/weng1i/aquaticplus/item/custom/ModArmorItem.class
+  net/weng1i/aquaticplus/item/custom/ModBoatItem.class
+  net/weng1i/aquaticplus/loot/
+  net/weng1i/aquaticplus/loot/AddItemModifier.class
+  net/weng1i/aquaticplus/loot/AddSusSandItemModifier.class
+  net/weng1i/aquaticplus/loot/ModLootModifiers.class
+  net/weng1i/aquaticplus/recipe/
+  net/weng1i/aquaticplus/recipe/GemPolishingRecipe$Serializer.class
+  net/weng1i/aquaticplus/recipe/GemPolishingRecipe$Type.class
+  net/weng1i/aquaticplus/recipe/GemPolishingRecipe.class
+  net/weng1i/aquaticplus/recipe/ModRecipes.class
+  net/weng1i/aquaticplus/screen/
+  net/weng1i/aquaticplus/screen/GemPolishingStationMenu.class
+  net/weng1i/aquaticplus/screen/GemPolishingStationScreen.class
+  net/weng1i/aquaticplus/screen/ModMenuTypes.class
+  net/weng1i/aquaticplus/sound/
+  net/weng1i/aquaticplus/sound/ModSounds.class
+  net/weng1i/aquaticplus/util/
+  net/weng1i/aquaticplus/util/ModTags$Blocks.class
+  net/weng1i/aquaticplus/util/ModTags$Items.class
+  net/weng1i/aquaticplus/util/ModTags.class
+  net/weng1i/aquaticplus/util/ModWoodTypes.class
+  net/weng1i/aquaticplus/villager/
+  net/weng1i/aquaticplus/villager/ModVillagers.class
+  net/weng1i/aquaticplus/world/
+  net/weng1i/aquaticplus/world/MobSpawnBiomeModifier.class
+  net/weng1i/aquaticplus/world/ModWorldRegistry.class
+  net/weng1i/aquaticplus/worldgen/
+  net/weng1i/aquaticplus/worldgen/ModBiomeModifiers.class
+  net/weng1i/aquaticplus/worldgen/ModConfiguredFeatures.class
+  net/weng1i/aquaticplus/worldgen/ModOrePlacement.class
+  net/weng1i/aquaticplus/worldgen/ModPlacedFeatures.class
+  net/weng1i/aquaticplus/worldgen/biome/
+  net/weng1i/aquaticplus/worldgen/biome/ModBiomes.class
+  net/weng1i/aquaticplus/worldgen/biome/ModOverworldRegion.class
+  net/weng1i/aquaticplus/worldgen/biome/ModTerrablender.class
+  net/weng1i/aquaticplus/worldgen/biome/surface/
+  net/weng1i/aquaticplus/worldgen/biome/surface/ModSurfaceRules.class
+  net/weng1i/aquaticplus/worldgen/carver/
+  net/weng1i/aquaticplus/worldgen/carver/ModConfiguredCarvers.class
+  net/weng1i/aquaticplus/worldgen/carver/ModWorldCarvers.class
+  net/weng1i/aquaticplus/worldgen/carver/OriginCaveWorldCarver.class
+  net/weng1i/aquaticplus/worldgen/dimension/
+  net/weng1i/aquaticplus/worldgen/dimension/ModDimensions.class
+  net/weng1i/aquaticplus/worldgen/portal/
+  net/weng1i/aquaticplus/worldgen/portal/ModTeleporter.class
+  net/weng1i/aquaticplus/worldgen/tree/
+  net/weng1i/aquaticplus/worldgen/tree/ModFoliagePlacers.class
+  net/weng1i/aquaticplus/worldgen/tree/ModTrunkPlacerTypes.class
+  net/weng1i/aquaticplus/worldgen/tree/PineTreeGrower.class
+  net/weng1i/aquaticplus/worldgen/tree/custom/
+  net/weng1i/aquaticplus/worldgen/tree/custom/PineFoliagePlacer.class
+  net/weng1i/aquaticplus/worldgen/tree/custom/PineTrunkPlacer.class
+  pack.mcmeta
