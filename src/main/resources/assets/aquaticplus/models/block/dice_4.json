@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "aquaticplus:block/dice_4",
+    "down": "aquaticplus:block/dice_3",
+    "north": "aquaticplus:block/dice_1",
+    "east": "aquaticplus:block/dice_5",
+    "south": "aquaticplus:block/dice_6",
+    "west": "aquaticplus:block/dice_2",
+    "particle": "aquaticplus:block/dice_4"
+  }
+}

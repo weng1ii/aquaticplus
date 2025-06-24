@@ -1,11 +1,11 @@
 {
   "values": [
-    "tutorialmod:sapphire_block",
-    "tutorialmod:raw_sapphire_block",
-    "tutorialmod:sapphire_ore",
-    "tutorialmod:deepslate_sapphire_ore",
-    "tutorialmod:nether_sapphire_ore",
-    "tutorialmod:end_stone_sapphire_ore",
-    "tutorialmod:sound_block"
+    "aquaticplus:sapphire_block",
+    "aquaticplus:raw_sapphire_block",
+    "aquaticplus:sapphire_ore",
+    "aquaticplus:deepslate_sapphire_ore",
+    "aquaticplus:nether_sapphire_ore",
+    "aquaticplus:end_stone_sapphire_ore",
+    "aquaticplus:sound_block"
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "aquaticplus:block/dice_1"
+    },
+    "number=north": {
+      "model": "aquaticplus:block/dice_2"
+    },
+    "number=east": {
+      "model": "aquaticplus:block/dice_3"
+    },
+    "number=south": {
+      "model": "aquaticplus:block/dice_5"
+    },
+    "number=west": {
+      "model": "aquaticplus:block/dice_4"
+    },
+    "number=down": {
+      "model": "aquaticplus:block/dice_6"
+    }
+  }
+}
