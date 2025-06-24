@@ -1,0 +1,222 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n<<<<<<< HEAD\r\n    <mapping directory=\"\" vcs=\"Git\" />\r\n<<<<<<< HEAD\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n=======\r\n>>>>>>> redacting\r\n=======\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n>>>>>>> redacting\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 28299f5239e85eea41a8a144af51662668d9a434)
++++ b/.idea/vcs.xml	(date 1750748242016)
+@@ -1,14 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-<<<<<<< HEAD
+     <mapping directory="" vcs="Git" />
+-<<<<<<< HEAD
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-=======
+->>>>>>> redacting
+-=======
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+->>>>>>> redacting
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n<<<<<<< HEAD\r\n<<<<<<< HEAD\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n=======\r\n>>>>>>> redacting\r\n=======\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n>>>>>>> redacting\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"#JAVA_HOME\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveExternalAnnotations\" value=\"true\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 28299f5239e85eea41a8a144af51662668d9a434)
++++ b/.idea/gradle.xml	(date 1750748242020)
+@@ -1,18 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-  <component name="GradleMigrationSettings" migrationVersion="1" />
+-=======
+->>>>>>> redacting
+-=======
+-  <component name="GradleMigrationSettings" migrationVersion="1" />
+->>>>>>> redacting
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="gradleJvm" value="#JAVA_HOME" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"RemoteRepositoriesConfiguration\">\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"central\" />\r\n      <option name=\"name\" value=\"Maven Central repository\" />\r\n      <option name=\"url\" value=\"https://repo1.maven.org/maven2\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"jboss.community\" />\r\n      <option name=\"name\" value=\"JBoss Community repository\" />\r\n      <option name=\"url\" value=\"https://repository.jboss.org/nexus/content/repositories/public/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"ParchmentMC\" />\r\n      <option name=\"name\" value=\"ParchmentMC\" />\r\n      <option name=\"url\" value=\"https://maven.parchmentmc.org/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"Jared's maven\" />\r\n      <option name=\"name\" value=\"Jared's maven\" />\r\n      <option name=\"url\" value=\"https://maven.blamejared.com/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n<<<<<<< HEAD\r\n<<<<<<< HEAD\r\n      <option name=\"id\" value=\"maven\" />\r\n      <option name=\"name\" value=\"maven\" />\r\n      <option name=\"url\" value=\"https://maven.minecraftforge.net/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven2\" />\r\n      <option name=\"name\" value=\"maven2\" />\r\n      <option name=\"url\" value=\"https://libraries.minecraft.net/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"MavenRepo\" />\r\n      <option name=\"name\" value=\"MavenRepo\" />\r\n      <option name=\"url\" value=\"https://repo.maven.apache.org/maven2/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n=======\r\n>>>>>>> redacting\r\n=======\r\n>>>>>>> redacting\r\n      <option name=\"id\" value=\"GeckoLib\" />\r\n      <option name=\"name\" value=\"GeckoLib\" />\r\n      <option name=\"url\" value=\"https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"CurseForge\" />\r\n      <option name=\"name\" value=\"CurseForge\" />\r\n      <option name=\"url\" value=\"https://minecraft.curseforge.com/api/maven/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven\" />\r\n      <option name=\"name\" value=\"maven\" />\r\n      <option name=\"url\" value=\"https://cursemaven.com\" />\r\n    </remote-repository>\r\n<<<<<<< HEAD\r\n<<<<<<< HEAD\r\n=======\r\n=======\r\n>>>>>>> redacting\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven2\" />\r\n      <option name=\"name\" value=\"maven2\" />\r\n      <option name=\"url\" value=\"https://maven.minecraftforge.net/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"maven3\" />\r\n      <option name=\"name\" value=\"maven3\" />\r\n      <option name=\"url\" value=\"https://libraries.minecraft.net/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"MavenRepo\" />\r\n      <option name=\"name\" value=\"MavenRepo\" />\r\n      <option name=\"url\" value=\"https://repo.maven.apache.org/maven2/\" />\r\n    </remote-repository>\r\n<<<<<<< HEAD\r\n>>>>>>> redacting\r\n=======\r\n>>>>>>> redacting\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+--- a/.idea/jarRepositories.xml	(revision 28299f5239e85eea41a8a144af51662668d9a434)
++++ b/.idea/jarRepositories.xml	(date 1750748242021)
+@@ -22,27 +22,6 @@
+       <option name="url" value="https://maven.blamejared.com/" />
+     </remote-repository>
+     <remote-repository>
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-      <option name="id" value="maven" />
+-      <option name="name" value="maven" />
+-      <option name="url" value="https://maven.minecraftforge.net/" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="maven2" />
+-      <option name="name" value="maven2" />
+-      <option name="url" value="https://libraries.minecraft.net/" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="MavenRepo" />
+-      <option name="name" value="MavenRepo" />
+-      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+-    </remote-repository>
+-    <remote-repository>
+-=======
+->>>>>>> redacting
+-=======
+->>>>>>> redacting
+       <option name="id" value="GeckoLib" />
+       <option name="name" value="GeckoLib" />
+       <option name="url" value="https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/" />
+@@ -57,11 +36,6 @@
+       <option name="name" value="maven" />
+       <option name="url" value="https://cursemaven.com" />
+     </remote-repository>
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-=======
+-=======
+->>>>>>> redacting
+     <remote-repository>
+       <option name="id" value="maven2" />
+       <option name="name" value="maven2" />
+@@ -77,9 +51,5 @@
+       <option name="name" value="MavenRepo" />
+       <option name="url" value="https://repo.maven.apache.org/maven2/" />
+     </remote-repository>
+-<<<<<<< HEAD
+->>>>>>> redacting
+-=======
+->>>>>>> redacting
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/modules/test.test.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"minecraft\" name=\"Minecraft\">\r\n      <configuration>\r\n        <autoDetectTypes>\r\n<<<<<<< HEAD\r\n<<<<<<< HEAD\r\n          <platformType>MCP</platformType>\r\n          <platformType>MIXIN</platformType>\r\n          <platformType>FORGE</platformType>\r\n=======\r\n          <platformType>FORGE</platformType>\r\n          <platformType>MIXIN</platformType>\r\n          <platformType>MCP</platformType>\r\n>>>>>>> redacting\r\n=======\r\n          <platformType>FORGE</platformType>\r\n          <platformType>MIXIN</platformType>\r\n          <platformType>MCP</platformType>\r\n>>>>>>> redacting\r\n        </autoDetectTypes>\r\n        <projectReimportVersion>1</projectReimportVersion>\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"McpModuleSettings\">\r\n<<<<<<< HEAD\r\n<<<<<<< HEAD\r\n    <option name=\"srgType\" value=\"SRG\" />\r\n=======\r\n=======\r\n>>>>>>> redacting\r\n    <option name=\"mappingFile\" value=\"D:\\Ideaprojects\\aquaticplus\\test\\build\\createMcpToSrg\\output.tsrg\" />\r\n    <option name=\"mcpVersion\" value=\"parchment_2023.06.26-1.20.1\" />\r\n    <option name=\"minecraftVersion\" value=\"1.20.1\" />\r\n    <option name=\"platformVersion\" value=\"47.1.3\" />\r\n    <option name=\"srgType\" value=\"TSRG\" />\r\n<<<<<<< HEAD\r\n>>>>>>> redacting\r\n=======\r\n>>>>>>> redacting\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/test.test.iml b/.idea/modules/test.test.iml
+--- a/.idea/modules/test.test.iml	(revision 28299f5239e85eea41a8a144af51662668d9a434)
++++ b/.idea/modules/test.test.iml	(date 1750748242007)
+@@ -4,41 +4,19 @@
+     <facet type="minecraft" name="Minecraft">
+       <configuration>
+         <autoDetectTypes>
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-          <platformType>MCP</platformType>
+-          <platformType>MIXIN</platformType>
+-          <platformType>FORGE</platformType>
+-=======
+           <platformType>FORGE</platformType>
+           <platformType>MIXIN</platformType>
+           <platformType>MCP</platformType>
+->>>>>>> redacting
+-=======
+-          <platformType>FORGE</platformType>
+-          <platformType>MIXIN</platformType>
+-          <platformType>MCP</platformType>
+->>>>>>> redacting
+         </autoDetectTypes>
+         <projectReimportVersion>1</projectReimportVersion>
+       </configuration>
+     </facet>
+   </component>
+   <component name="McpModuleSettings">
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-    <option name="srgType" value="SRG" />
+-=======
+-=======
+->>>>>>> redacting
+     <option name="mappingFile" value="D:\Ideaprojects\aquaticplus\test\build\createMcpToSrg\output.tsrg" />
+     <option name="mcpVersion" value="parchment_2023.06.26-1.20.1" />
+     <option name="minecraftVersion" value="1.20.1" />
+     <option name="platformVersion" value="47.1.3" />
+     <option name="srgType" value="TSRG" />
+-<<<<<<< HEAD
+->>>>>>> redacting
+-=======
+->>>>>>> redacting
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/modules/test.main.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module version=\"4\">\r\n  <component name=\"FacetManager\">\r\n    <facet type=\"minecraft\" name=\"Minecraft\">\r\n      <configuration>\r\n        <autoDetectTypes>\r\n<<<<<<< HEAD\r\n<<<<<<< HEAD\r\n          <platformType>MCP</platformType>\r\n          <platformType>MIXIN</platformType>\r\n          <platformType>FORGE</platformType>\r\n=======\r\n          <platformType>FORGE</platformType>\r\n          <platformType>MIXIN</platformType>\r\n          <platformType>MCP</platformType>\r\n>>>>>>> redacting\r\n=======\r\n          <platformType>FORGE</platformType>\r\n          <platformType>MIXIN</platformType>\r\n          <platformType>MCP</platformType>\r\n>>>>>>> redacting\r\n        </autoDetectTypes>\r\n        <projectReimportVersion>1</projectReimportVersion>\r\n      </configuration>\r\n    </facet>\r\n  </component>\r\n  <component name=\"McpModuleSettings\">\r\n<<<<<<< HEAD\r\n<<<<<<< HEAD\r\n    <option name=\"srgType\" value=\"SRG\" />\r\n=======\r\n=======\r\n>>>>>>> redacting\r\n    <option name=\"mappingFile\" value=\"D:\\Ideaprojects\\aquaticplus\\test\\build\\createMcpToSrg\\output.tsrg\" />\r\n    <option name=\"mcpVersion\" value=\"parchment_2023.06.26-1.20.1\" />\r\n    <option name=\"minecraftVersion\" value=\"1.20.1\" />\r\n    <option name=\"platformVersion\" value=\"47.1.3\" />\r\n    <option name=\"srgType\" value=\"TSRG\" />\r\n<<<<<<< HEAD\r\n>>>>>>> redacting\r\n=======\r\n>>>>>>> redacting\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules/test.main.iml b/.idea/modules/test.main.iml
+--- a/.idea/modules/test.main.iml	(revision 28299f5239e85eea41a8a144af51662668d9a434)
++++ b/.idea/modules/test.main.iml	(date 1750748242005)
+@@ -4,41 +4,19 @@
+     <facet type="minecraft" name="Minecraft">
+       <configuration>
+         <autoDetectTypes>
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-          <platformType>MCP</platformType>
+-          <platformType>MIXIN</platformType>
+-          <platformType>FORGE</platformType>
+-=======
+           <platformType>FORGE</platformType>
+           <platformType>MIXIN</platformType>
+           <platformType>MCP</platformType>
+->>>>>>> redacting
+-=======
+-          <platformType>FORGE</platformType>
+-          <platformType>MIXIN</platformType>
+-          <platformType>MCP</platformType>
+->>>>>>> redacting
+         </autoDetectTypes>
+         <projectReimportVersion>1</projectReimportVersion>
+       </configuration>
+     </facet>
+   </component>
+   <component name="McpModuleSettings">
+-<<<<<<< HEAD
+-<<<<<<< HEAD
+-    <option name="srgType" value="SRG" />
+-=======
+-=======
+->>>>>>> redacting
+     <option name="mappingFile" value="D:\Ideaprojects\aquaticplus\test\build\createMcpToSrg\output.tsrg" />
+     <option name="mcpVersion" value="parchment_2023.06.26-1.20.1" />
+     <option name="minecraftVersion" value="1.20.1" />
+     <option name="platformVersion" value="47.1.3" />
+     <option name="srgType" value="TSRG" />
+-<<<<<<< HEAD
+->>>>>>> redacting
+-=======
+->>>>>>> redacting
+   </component>
+ </module>
+\ No newline at end of file
