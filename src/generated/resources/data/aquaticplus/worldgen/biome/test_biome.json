@@ -17,12 +17,6 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "aquaticplus:bar_brawl"
-    },
     "sky_color": 3197208,
     "water_color": 15216187,
     "water_fog_color": 12524326
@@ -84,8 +78,7 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "aquaticplus:pine_placed"
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -104,12 +97,6 @@
     ],
     "axolotls": [],
     "creature": [
-      {
-        "type": "aquaticplus:rhino",
-        "maxCount": 5,
-        "minCount": 3,
-        "weight": 2
-      },
       {
         "type": "minecraft:wolf",
         "maxCount": 4,

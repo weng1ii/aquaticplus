@@ -13,24 +13,10 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Aquaticplus.MOD_ID);
 
-    public static final RegistryObject<SoundEvent> METAL_DETECTOR_FOUND_ORE = registerSoundEvents("metal_detector_found_ore");
-
-    public static final RegistryObject<SoundEvent> SOUND_BLOCK_BREAK = registerSoundEvents("sound_block_break");
-    public static final RegistryObject<SoundEvent> SOUND_BLOCK_STEP = registerSoundEvents("sound_block_step");
-    public static final RegistryObject<SoundEvent> SOUND_BLOCK_FALL = registerSoundEvents("sound_block_fall");
-    public static final RegistryObject<SoundEvent> SOUND_BLOCK_PLACE = registerSoundEvents("sound_block_place");
-    public static final RegistryObject<SoundEvent> SOUND_BLOCK_HIT = registerSoundEvents("sound_block_hit");
-
-    public static final RegistryObject<SoundEvent> BAR_BRAWL = registerSoundEvents("bar_brawl");
-
     public static final RegistryObject<SoundEvent> ANGLER_BITE = registerSoundEvents("angler_bite");
     public static final RegistryObject<SoundEvent> ANGLER_AMBIENT = registerSoundEvents("angler_ambient");
     public static final RegistryObject<SoundEvent> ANGLER_DEAD = registerSoundEvents("angler_dead");
 
-
-    public static final ForgeSoundType SOUND_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
-            ModSounds.SOUND_BLOCK_BREAK, ModSounds.SOUND_BLOCK_STEP, ModSounds.SOUND_BLOCK_PLACE,
-            ModSounds.SOUND_BLOCK_HIT, ModSounds.SOUND_BLOCK_FALL);
 
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {

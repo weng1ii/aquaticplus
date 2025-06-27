@@ -3,29 +3,21 @@ package net.weng1i.aquaticplus;
 import com.mojang.logging.LogUtils;
 import com.mojang.serialization.Codec;
 import net.weng1i.aquaticplus.block.ModBlocks;
-import net.weng1i.aquaticplus.block.entity.ModBlockEntities;
 import net.weng1i.aquaticplus.config.BiomeConfig;
 import net.weng1i.aquaticplus.config.ConfigHolder;
 import net.weng1i.aquaticplus.config.SpawnConfig;
 import net.weng1i.aquaticplus.entity.ModEntities;
 import net.weng1i.aquaticplus.entity.client.AnglerfishRenderer;
 import net.weng1i.aquaticplus.entity.client.BluefinfishRenderer;
-import net.weng1i.aquaticplus.entity.client.ModBoatRenderer;
-import net.weng1i.aquaticplus.entity.client.RhinoRenderer;
 import net.weng1i.aquaticplus.item.ModCreativeModTabs;
 import net.weng1i.aquaticplus.item.ModItems;
 import net.weng1i.aquaticplus.loot.ModLootModifiers;
 import net.weng1i.aquaticplus.recipe.ModRecipes;
-import net.weng1i.aquaticplus.screen.GemPolishingStationScreen;
-import net.weng1i.aquaticplus.screen.ModMenuTypes;
 import net.weng1i.aquaticplus.sound.ModSounds;
 import net.weng1i.aquaticplus.util.ModWoodTypes;
-import net.weng1i.aquaticplus.villager.ModVillagers;
 import net.weng1i.aquaticplus.world.MobSpawnBiomeModifier;
 import net.weng1i.aquaticplus.worldgen.biome.ModTerrablender;
 import net.weng1i.aquaticplus.worldgen.biome.surface.ModSurfaceRules;
-import net.weng1i.aquaticplus.worldgen.tree.ModFoliagePlacers;
-import net.weng1i.aquaticplus.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -74,18 +66,11 @@ public class Aquaticplus {
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
-        ModVillagers.register(modEventBus);
 
         ModSounds.register(modEventBus);
         ModEntities.register(modEventBus);
 
-        ModBlockEntities.register(modEventBus);
-        ModMenuTypes.register(modEventBus);
-
         ModRecipes.register(modEventBus);
-        ModTrunkPlacerTypes.register(modEventBus);
-
-        ModFoliagePlacers.register(modEventBus);
         ModTerrablender.registerBiomes();
 
 
@@ -103,8 +88,6 @@ public class Aquaticplus {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
-            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CATMINT.getId(), ModBlocks.POTTED_CATMINT);
-
             SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
         });
     }
@@ -126,8 +109,6 @@ public class Aquaticplus {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
         }
     }
 
@@ -142,18 +123,9 @@ public class Aquaticplus {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            Sheets.addWoodType(ModWoodTypes.PINE);
-
-            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
-            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
-            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
-
-            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
-
             EntityRenderers.register(ModEntities.BLUEFINFISH.get(), BluefinfishRenderer::new);
             EntityRenderers.register(ModEntities.ANGLERFISH.get(), AnglerfishRenderer::new);
 
-            MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }
     }
 

@@ -1,6 +1,2 @@
-// 1.20.1	2025-06-23T15:36:04.7349835	Global Loot Modifiers : aquaticplus
-d73ef450c83ef5f4688e1a264f7359a0acd0952d data/aquaticplus/loot_modifiers/metal_detector_from_jungle_temples.json
-ad7f5a82db1b6b5ed847784f8138db3c9c00a6af data/aquaticplus/loot_modifiers/metal_detector_from_suspicious_sand.json
-8a90e7bf1229280e85333a703b0c5b199bd7e20d data/aquaticplus/loot_modifiers/pine_cone_from_creeper.json
-070fce5b9b079010706dbd7788244cee717681e3 data/aquaticplus/loot_modifiers/pine_cone_from_grass.json
-9e545cd5f656f2086dc92b0b09309846f0f04cda data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2025-06-27T21:28:04.1872017	Global Loot Modifiers : aquaticplus
+bc4e4393d8ca5a7ad14dbefd9369539d91ea131a data/forge/loot_modifiers/global_loot_modifiers.json

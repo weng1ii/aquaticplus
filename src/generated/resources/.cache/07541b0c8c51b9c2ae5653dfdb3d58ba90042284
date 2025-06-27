@@ -1,6 +1,2 @@
-// 1.20.1	2025-06-23T15:36:04.7329468	Tags for minecraft:item mod id aquaticplus
-d1355cc5c7bba1ebaad33b1bc42661133523974d data/minecraft/tags/items/creeper_drop_music_discs.json
-8f4e2465aa054f54bb798aeeb0e079d01df91cef data/minecraft/tags/items/logs_that_burn.json
-d1355cc5c7bba1ebaad33b1bc42661133523974d data/minecraft/tags/items/music_discs.json
-ad68ddf6ba4b2d0cc2326793a70403fb116715d7 data/minecraft/tags/items/planks.json
-8357f22742565a7010dccf21acb401963d54f438 data/minecraft/tags/items/trimmable_armor.json
+// 1.20.1	2025-06-27T21:28:04.1860523	Tags for minecraft:item mod id aquaticplus
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/items/trimmable_armor.json

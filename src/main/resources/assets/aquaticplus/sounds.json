@@ -1,48 +1,4 @@
 {
-  "metal_detector_found_ore": {
-    "subtitles": "sounds.aquaticplus.metal_detector_found_ore",
-    "sounds": [
-      "aquaticplus:metal_detector_found_ore"
-    ]
-  },
-  "sound_block_break": {
-    "subtitle": "sounds.aquaticplus.sound_block_break",
-    "sounds": [
-      "aquaticplus:sound_block_break"
-    ]
-  },
-  "sound_block_step": {
-    "subtitle": "sounds.aquaticplus.sound_block_step",
-    "sounds": [
-      "aquaticplus:sound_block_step"
-    ]
-  },
-  "sound_block_place": {
-    "subtitle": "sounds.aquaticplus.sound_block_place",
-    "sounds": [
-      "aquaticplus:sound_block_place"
-    ]
-  },
-  "sound_block_hit": {
-    "subtitle": "sounds.aquaticplus.sound_block_hit",
-    "sounds": [
-      "aquaticplus:sound_block_hit"
-    ]
-  },
-  "sound_block_fall": {
-    "subtitle": "sounds.aquaticplus.sound_block_fall",
-    "sounds": [
-      "aquaticplus:sound_block_fall"
-    ]
-  },
-  "bar_brawl": {
-    "sounds": [
-      {
-        "name": "aquaticplus:bar_brawl",
-        "stream": true
-      }
-    ]
-  },
   "angler_ambient": {
     "sounds": [
       {

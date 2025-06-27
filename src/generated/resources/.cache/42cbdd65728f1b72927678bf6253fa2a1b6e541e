@@ -1,13 +1,1 @@
-// 1.20.1	2025-06-23T15:36:04.7319436	Tags for minecraft:block mod id aquaticplus
-99017ccc32b678ccc893e13e91db018db494ebb6 data/aquaticplus/tags/blocks/metal_detector_valuables.json
-72a438ff6d8310caa92310c76fec34440b4ce701 data/aquaticplus/tags/blocks/needs_sapphire_tool.json
-3871cfc336c3074ed2f8731fb5d29989f92e96a9 data/forge/tags/blocks/needs_netherite_tool.json
-2384eeb27e9139a2ea591def724d52effc1ed10a data/minecraft/tags/blocks/fences.json
-be670c7c62050376744a1b75a2778bd8ab969ca8 data/minecraft/tags/blocks/fence_gates.json
-8f4e2465aa054f54bb798aeeb0e079d01df91cef data/minecraft/tags/blocks/logs_that_burn.json
-f3a8a8bc49bf548a16d9913acef3c6cd9a1f1c93 data/minecraft/tags/blocks/mineable/pickaxe.json
-fd989fac3dab0b665dc70b576c77f172803b690a data/minecraft/tags/blocks/needs_diamond_tool.json
-7e2151ce6671478d4a48e89e9044e601a8a6d75f data/minecraft/tags/blocks/needs_iron_tool.json
-4c5f51eac703c650784bcac7890d2e97bab30cbe data/minecraft/tags/blocks/needs_stone_tool.json
-ad68ddf6ba4b2d0cc2326793a70403fb116715d7 data/minecraft/tags/blocks/planks.json
-1189d92dfe8d831b6186eeca1f32dc9a50a7fcc6 data/minecraft/tags/blocks/walls.json
+// 1.20.1	2025-06-27T21:28:04.1847295	Tags for minecraft:block mod id aquaticplus

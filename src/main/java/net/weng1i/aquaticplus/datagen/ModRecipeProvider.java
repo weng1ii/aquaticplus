@@ -15,9 +15,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> SAPPHIRE_SMELTABLES = List.of(ModItems.RAW_SAPPHIRE.get(),
-            ModBlocks.SAPPHIRE_ORE.get(), ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModBlocks.NETHER_SAPPHIRE_ORE.get(),
-            ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+
     private static final List<ItemLike> BLUEFINFISH_SMELTABLES = List.of(ModItems.RAW_BLUEFINFISH.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
@@ -26,25 +24,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 200, "sapphire");
-        oreBlasting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 100, "sapphire");
         oreCooking(pWriter, RecipeSerializer.SMELTING_RECIPE, BLUEFINFISH_SMELTABLES, RecipeCategory.FOOD, ModItems.COOKED_BLUEFINFISH.get(), 0.25f, 200, "bluefinfish", "_from_smelting");
         oreCooking(pWriter, RecipeSerializer.SMOKING_RECIPE, BLUEFINFISH_SMELTABLES, RecipeCategory.FOOD, ModItems.COOKED_BLUEFINFISH.get(), 0.35f, 100, "bluefinfish", "_from_smoking");
         oreCooking(pWriter, RecipeSerializer.CAMPFIRE_COOKING_RECIPE, BLUEFINFISH_SMELTABLES, RecipeCategory.FOOD, ModItems.COOKED_BLUEFINFISH.get(), 0.35f, 600, "bluefinfish", "_from_campfire");
 
-
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get())
-                .pattern("SSS")
-                .pattern("SSS")
-                .pattern("SSS")
-                .define('S', ModItems.SAPPHIRE.get())
-                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
-                .save(pWriter);
-
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
-                .requires(ModBlocks.SAPPHIRE_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
-                .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
